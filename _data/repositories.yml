@@ -1,12 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
-
+  - AlexandreWadoux
+  
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - AlexandreWadoux/soilspec
+  - AlexandreWadoux/MapQualityEvaluation
+  - AlexandreWadoux/SpatialValidation
+  - AlexandreWadoux/validation_soil_map
+  - AlexandreWadoux/non_stationary_variance_kriging
+  - AlexandreWadoux/VNIR_spectroscopy_for_robust_soil_mapping
+  - AlexandreWadoux/validation_soil_map_accuracy_plots
