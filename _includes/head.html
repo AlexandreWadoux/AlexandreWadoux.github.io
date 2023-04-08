@@ -23,9 +23,9 @@
 
     <!-- Styles -->
     {% if site.icon.size <= 4 %}
-    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+    <link rel="shortcut icon" href="{{ "/assets/images/favicon.ico" | relative_url }}">
     {% elsif site.icon != blank %}
-    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+    <link rel="shortcut icon" href="{{ "/assets/images/favicon.ico" | relative_url }}">
     {% endif %}
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
