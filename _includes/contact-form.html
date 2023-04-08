@@ -1,0 +1,58 @@
+<!-- Contact -->
+<section class="page-section" id="contact" >
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">
+          {{ site.data.sitetext[site.locale].contact.title | markdownify | default: Contact Us }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].contact.text | default: "" }}</h3>
+      </div>
+    </div>
+      <div class="col-lg-12">
+        <form id="contactForm"
+          action="https://formspree.io/f/xwkywqvo"
+          method="POST">
+          <!--name="sentMessage"-->
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <input name="name" class="form-control" id="name" type="text"
+                  placeholder="Name*"
+                  required="">
+              </div>
+              </div>
+              <div class="col-md-12">
+              <div class="form-group">
+                <input name="_replyto" class="form-control" id="email" type="email"
+                  placeholder="Email*"
+                  required="" >
+              </div>
+              </div>
+              <div class="col-md-12">
+              <div class="form-group">
+                <input name="phone" class="form-control" id="phone" type="tel"
+                  placeholder="Phone Number" >
+              </div>
+            </div>
+            <div class="col-md-12">
+                <textarea name="message" class="form-control" id="message" type="text"
+                  placeholder="Message*" rows="6.8"
+                  required=""></textarea>
+            </div>
+             </div>
+            <input type="hidden" name="_subject" id="email-subject"
+              value="Contact Form Submission">
+            <div class="clearfix"></div>
+            <div class="col-lg-12 text-center">
+              <div id="success"></div>
+              <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase"
+                type="submit">{{ site.data.sitetext[site.locale].contact.submit | default: "Send Message" }}</button>
+            </div>
+            <input type="text" name="_gotcha" style="display:none">
+            <input type="hidden" name="_next" value="#" />
+          </div>
+        </form>
+      </div>
+  </div>
+</section>
+<!-- End Contact -->
