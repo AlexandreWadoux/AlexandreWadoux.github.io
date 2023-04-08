@@ -1,4 +1,5 @@
 ---
+layout: contact
 permalink: /Contact/
 title: Contact
 description: 
