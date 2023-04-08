@@ -1,9 +1,10 @@
 ---
 layout: contact
+permalink: /Contact/
 title: Contact
-permalink: /contact/
-order: 6
+description: 
 nav: true
+nav_order: 5
 ---
 
 ----
