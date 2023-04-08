@@ -15,7 +15,7 @@ footer_text: >
 keywords:   # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: /assets/img/android-chrome-192x192.png
+icon: /assets/img/favicon.ico
 
 url: https://AlexandreWadoux.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
