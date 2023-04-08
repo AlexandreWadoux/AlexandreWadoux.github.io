@@ -1,8 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-04-15 15:59:00-0400
 inline: true
-related_posts: false
 ---
 
-A simple inline announcement.
+The 2nd joint Workshop of the IUSS Working Groups Digital Soil Mapping & Global Soil Map, entitled "Soil Mapping for a Sustainable Future", will take place in Orléans (France) from February 7 to 9, 2023. 
