@@ -1,6 +1,6 @@
 ---
-layout: About
-title: About
+layout: about
+title: about
 permalink: /
 order: 1
 subtitle: PhD, University of Sydney
