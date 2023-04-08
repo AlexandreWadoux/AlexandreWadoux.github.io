@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>a post with code | Alexandre M.J.-C. Wadoux</title>
+    <title>repositories | Alexandre M.J.-C. Wadoux</title>
     <meta name="author" content="Alexandre M.J.-C. Wadoux">
-    <meta name="description" content="an example of a blog post with some code">
+    <meta name="description" content="Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.">
 
 
     <!-- Bootstrap & MDB -->
@@ -32,7 +32,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://alexandrewadoux.github.io/blog/2015/code/">
+    <link rel="canonical" href="https://alexandrewadoux.github.io/repositories/">
     
     <!-- Dark Mode -->
     
@@ -71,8 +71,8 @@
               </li>
               
               <!-- Blog -->
-              <li class="nav-item active">
-                <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a>
+              <li class="nav-item ">
+                <a class="nav-link" href="/blog/">blog</a>
               </li>
 
               <!-- Other pages -->
@@ -82,8 +82,8 @@
               <li class="nav-item ">
                 <a class="nav-link" href="/projects/">projects</a>
               </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/repositories/">repositories</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="/repositories/">repositories<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/CV/">CV</a>
@@ -115,152 +115,161 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <!-- _layouts/post.html -->
+      <!-- page.html -->
+        <div class="post">
 
-<div class="post">
+          <header class="post-header">
+            <h1 class="post-title">repositories</h1>
+            <p class="post-description">Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.</p>
+          </header>
 
-  <header class="post-header">
-    <h1 class="post-title">a post with code</h1>
-    <p class="post-meta">July 15, 2015</p>
-    <p class="post-tags">
-      <a href="/blog/2015"> <i class="fas fa-calendar fa-sm"></i> 2015 </a>
-        ·  
-        <a href="/blog/tag/formatting">
-          <i class="fas fa-hashtag fa-sm"></i> formatting</a>  
-          <a href="/blog/tag/code">
-          <i class="fas fa-hashtag fa-sm"></i> code</a>  
-          
-        ·  
-        <a href="/blog/category/sample-posts">
-          <i class="fas fa-tag fa-sm"></i> sample-posts</a>  
-          
+          <article>
+            <h2 id="github-users">GitHub users</h2>
 
-    </p>
-  </header>
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  
+    <div class="repo p-2 text-center">
+  <a href="https://github.com/torvalds" rel="external nofollow noopener" target="_blank">
+    <img class="repo-img-light w-100" alt="torvalds" src="https://github-readme-stats.vercel.app/api/?username=torvalds&amp;theme=default&amp;show_icons=true">
+    <img class="repo-img-dark w-100" alt="torvalds" src="https://github-readme-stats.vercel.app/api/?username=torvalds&amp;theme=dark&amp;show_icons=true">
+  </a>
+</div>
 
-  <article class="post-content">
-    <p>This theme implements a built-in Jekyll feature, the use of Rouge, for syntax highlighting.
-It supports more than 100 languages.
-This example is in C++.
-All you have to do is wrap your code in markdown code tags:</p>
+  
+    <div class="repo p-2 text-center">
+  <a href="https://github.com/alshedivat" rel="external nofollow noopener" target="_blank">
+    <img class="repo-img-light w-100" alt="alshedivat" src="https://github-readme-stats.vercel.app/api/?username=alshedivat&amp;theme=default&amp;show_icons=true">
+    <img class="repo-img-dark w-100" alt="alshedivat" src="https://github-readme-stats.vercel.app/api/?username=alshedivat&amp;theme=dark&amp;show_icons=true">
+  </a>
+</div>
 
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">c++
-</span><span class="n">code</span> <span class="n">code</span> <span class="n">code</span>
-<span class="p">```</span>
-</code></pre></div></div>
+  
+</div>
 
-<div class="language-c++ highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="k">const</span> <span class="err">\</span><span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
-<span class="p">{</span>
-    <span class="n">string</span> <span class="n">myString</span><span class="p">;</span>
+<hr>
 
-    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"input a string: "</span><span class="p">;</span>
-    <span class="n">getline</span><span class="p">(</span><span class="n">cin</span><span class="p">,</span> <span class="n">myString</span><span class="p">);</span>
-    <span class="kt">int</span> <span class="n">length</span> <span class="o">=</span> <span class="n">myString</span><span class="p">.</span><span class="n">length</span><span class="p">();</span>
+<h4>torvalds</h4>
 
-    <span class="kt">char</span> <span class="n">charArray</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">char</span> <span class="o">*</span> <span class="p">[</span><span class="n">length</span><span class="p">];</span>
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  <div class="repo p-2 text-center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy" rel="external nofollow noopener" target="_blank">
+    <img class="repo-img-light w-200" alt="torvalds" src="https://github-profile-trophy.vercel.app/?username=torvalds&amp;theme=flat&amp;locale=en&amp;margin-w=15&amp;margin-h=15&amp;no-bg=true&amp;rank=-C">
+    <img class="repo-img-dark w-200" alt="torvalds" src="https://github-profile-trophy.vercel.app/?username=torvalds&amp;theme=gitdimmed&amp;locale=en&amp;margin-w=15&amp;margin-h=15&amp;no-bg=true&amp;rank=-C">
+  </a>
+</div>
 
-    <span class="n">charArray</span> <span class="o">=</span> <span class="n">myString</span><span class="p">;</span>
-    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">length</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">){</span>
-        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">charArray</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span><span class="p">;</span>
-    <span class="p">}</span>
+  </div>
 
-    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></div>
+<hr>
 
-<p>By default, it does not display line numbers. If you want to display line numbers for every code block, you can set <code class="language-plaintext highlighter-rouge">kramdown.syntax_highlighter_opts.block.line_numbers</code> to true in your <code class="language-plaintext highlighter-rouge">_config.yml</code> file.</p>
+<h4>alshedivat</h4>
 
-<p>If you want to display line numbers for a specific code block, all you have to do is wrap your code in a liquid tag:</p>
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  <div class="repo p-2 text-center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy" rel="external nofollow noopener" target="_blank">
+    <img class="repo-img-light w-200" alt="alshedivat" src="https://github-profile-trophy.vercel.app/?username=alshedivat&amp;theme=flat&amp;locale=en&amp;margin-w=15&amp;margin-h=15&amp;no-bg=true&amp;rank=-C">
+    <img class="repo-img-dark w-200" alt="alshedivat" src="https://github-profile-trophy.vercel.app/?username=alshedivat&amp;theme=gitdimmed&amp;locale=en&amp;margin-w=15&amp;margin-h=15&amp;no-bg=true&amp;rank=-C">
+  </a>
+</div>
 
-<p>{% highlight c++ linenos %}  <br> code code code <br> {% endhighlight %}</p>
+  </div>
 
-<p>The keyword <code class="language-plaintext highlighter-rouge">linenos</code> triggers display of line numbers.
-Produces something like this:</p>
+<hr>
 
-<figure class="highlight"><pre><code class="language-c--" data-lang="c++"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-</pre></td>
-<td class="code"><pre><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="k">const</span> <span class="err">\</span><span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
-<span class="p">{</span>
-    <span class="n">string</span> <span class="n">myString</span><span class="p">;</span>
+<h2 id="github-repositories">GitHub Repositories</h2>
 
-    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"input a string: "</span><span class="p">;</span>
-    <span class="n">getline</span><span class="p">(</span><span class="n">cin</span><span class="p">,</span> <span class="n">myString</span><span class="p">);</span>
-    <span class="kt">int</span> <span class="n">length</span> <span class="o">=</span> <span class="n">myString</span><span class="p">.</span><span class="n">length</span><span class="p">();</span>
-
-    <span class="kt">char</span> <span class="n">charArray</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">char</span> <span class="o">*</span> <span class="p">[</span><span class="n">length</span><span class="p">];</span>
-
-    <span class="n">charArray</span> <span class="o">=</span> <span class="n">myString</span><span class="p">;</span>
-    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">length</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">){</span>
-        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">charArray</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span><span class="p">;</span>
-    <span class="p">}</span>
-
-    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  
+    
 
 
-  </article>
 
+<div class="repo p-2 text-center">
+  <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">
+    <img class="repo-img-light w-100" alt="alshedivat/al-folio" src="https://github-readme-stats.vercel.app/api/pin/?username=alshedivat&amp;repo=al-folio&amp;theme=default&amp;show_owner=false">
+    <img class="repo-img-dark w-100" alt="alshedivat/al-folio" src="https://github-readme-stats.vercel.app/api/pin/?username=alshedivat&amp;repo=al-folio&amp;theme=dark&amp;show_owner=false">
+  </a>
+</div>
 
   
     
-    <br>
-    <hr>
-    <br>
-    <ul class="list-disc pl-8"></ul>
 
-    <!-- Adds related posts to the end of an article -->
-    <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2>
-    <p class="mb-2">Here are some more articles you might like to read next:</p>
-  
 
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2022/displaying-external-posts-on-your-al-folio-blog/">Displaying External Posts on Your al-folio Blog</a>
-  </li>
 
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2022/giscus-comments/">a post with giscus comments</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2022/redirect/">a post with redirect</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2021/diagrams/">a post with diagrams</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2021/distill/">a distill-style blog post</a>
-  </li>
-
+<div class="repo p-2 text-center">
+  <a href="https://github.com/twbs/bootstrap" rel="external nofollow noopener" target="_blank">
+    <img class="repo-img-light w-100" alt="twbs/bootstrap" src="https://github-readme-stats.vercel.app/api/pin/?username=twbs&amp;repo=bootstrap&amp;theme=default&amp;show_owner=true">
+    <img class="repo-img-dark w-100" alt="twbs/bootstrap" src="https://github-readme-stats.vercel.app/api/pin/?username=twbs&amp;repo=bootstrap&amp;theme=dark&amp;show_owner=true">
+  </a>
 </div>
+
+  
+    
+
+
+
+<div class="repo p-2 text-center">
+  <a href="https://github.com/jekyll/jekyll" rel="external nofollow noopener" target="_blank">
+    <img class="repo-img-light w-100" alt="jekyll/jekyll" src="https://github-readme-stats.vercel.app/api/pin/?username=jekyll&amp;repo=jekyll&amp;theme=default&amp;show_owner=true">
+    <img class="repo-img-dark w-100" alt="jekyll/jekyll" src="https://github-readme-stats.vercel.app/api/pin/?username=jekyll&amp;repo=jekyll&amp;theme=dark&amp;show_owner=true">
+  </a>
+</div>
+
+  
+    
+
+
+
+<div class="repo p-2 text-center">
+  <a href="https://github.com/jquery/jquery" rel="external nofollow noopener" target="_blank">
+    <img class="repo-img-light w-100" alt="jquery/jquery" src="https://github-readme-stats.vercel.app/api/pin/?username=jquery&amp;repo=jquery&amp;theme=default&amp;show_owner=true">
+    <img class="repo-img-dark w-100" alt="jquery/jquery" src="https://github-readme-stats.vercel.app/api/pin/?username=jquery&amp;repo=jquery&amp;theme=dark&amp;show_owner=true">
+  </a>
+</div>
+
+  
+    
+
+
+
+<div class="repo p-2 text-center">
+  <a href="https://github.com/FortAwesome/Font-Awesome" rel="external nofollow noopener" target="_blank">
+    <img class="repo-img-light w-100" alt="FortAwesome/Font-Awesome" src="https://github-readme-stats.vercel.app/api/pin/?username=FortAwesome&amp;repo=Font-Awesome&amp;theme=default&amp;show_owner=true">
+    <img class="repo-img-dark w-100" alt="FortAwesome/Font-Awesome" src="https://github-readme-stats.vercel.app/api/pin/?username=FortAwesome&amp;repo=Font-Awesome&amp;theme=dark&amp;show_owner=true">
+  </a>
+</div>
+
+  
+    
+
+
+
+<div class="repo p-2 text-center">
+  <a href="https://github.com/jpswalsh/academicons" rel="external nofollow noopener" target="_blank">
+    <img class="repo-img-light w-100" alt="jpswalsh/academicons" src="https://github-readme-stats.vercel.app/api/pin/?username=jpswalsh&amp;repo=academicons&amp;theme=default&amp;show_owner=true">
+    <img class="repo-img-dark w-100" alt="jpswalsh/academicons" src="https://github-readme-stats.vercel.app/api/pin/?username=jpswalsh&amp;repo=academicons&amp;theme=dark&amp;show_owner=true">
+  </a>
+</div>
+
+  
+    
+
+
+
+<div class="repo p-2 text-center">
+  <a href="https://github.com/mathjax/MathJax" rel="external nofollow noopener" target="_blank">
+    <img class="repo-img-light w-100" alt="mathjax/MathJax" src="https://github-readme-stats.vercel.app/api/pin/?username=mathjax&amp;repo=MathJax&amp;theme=default&amp;show_owner=true">
+    <img class="repo-img-dark w-100" alt="mathjax/MathJax" src="https://github-readme-stats.vercel.app/api/pin/?username=mathjax&amp;repo=MathJax&amp;theme=dark&amp;show_owner=true">
+  </a>
+</div>
+
+  
+</div>
+
+
+          </article>
+
+        </div>
 
     </div>
 
