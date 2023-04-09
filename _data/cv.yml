@@ -16,22 +16,22 @@
       year: 2019
       description:
         - Sampling design optimization for geostatistical modelling and prediction. 
-        - Advisors: Prof. Gerard Heuvelink, Dr. Dick Brus
-        - Training: hydrology, statistics, modelling, presentation, scientific writing
+        - value: Advisors: Prof. Gerard Heuvelink, Dr. Dick Brus
+        - value: Training: hydrology, statistics, modelling, presentation, scientific writing
     - title: Research Master, Epistemology and History of Sciences
       institution: University of Nantes, France
       year: 2018
       description:
         - Epistemological aspects of soil science in the late nineteenth century
-        - Advisor: Prof. Stéphane Tirard
-        - Training: history of life sciences, mathematics and physics, historical document analysis, epistemology general and concepts
+        - value: Advisor: Prof. Stéphane Tirard
+        - value: Training: history of life sciences, mathematics and physics, historical document analysis, epistemology general and concepts
     - title: Master of Science, Landscape System Sciences
       institution: Eberhard-Karl University of Tübingen, Germany
       year: 2015
       description:
         - Mid-infrared spectroscopy for soil and terrain analysis
-        - Advisor: Dr. Leonardo Ramirez-Lopez. In collaboration with the ETH Zurich - Soil and Terrestrial Environmental Physics.
-        - Major in Soil Science and Geomorphology: soils and landscape, soils and geomorphology, geoinformatics and ecosystem processes, hydrogeology, soil landscape modeling
+        - value: Advisor: Dr. Leonardo Ramirez-Lopez. In collaboration with the ETH Zurich - Soil and Terrestrial Environmental Physics.
+        - value: Major in Soil Science and Geomorphology: soils and landscape, soils and geomorphology, geoinformatics and ecosystem processes, hydrogeology, soil landscape modeling
     - title: Bachelor in Environmental Geography
       institution: University of Angers, France
       year: 2012
