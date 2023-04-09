@@ -16,22 +16,22 @@
       year: 2019
       description:
         - Sampling design optimization for geostatistical modelling and prediction. 
-        - Advisors: Prof. Gerard Heuvelink, Dr. Dick Brus
-        - value: Training: hydrology, statistics, modelling, presentation, scientific writing
+        - Advisors; Prof. Gerard Heuvelink, Dr. Dick Brus
+        - Trainings in hydrology, statistics, modelling, presentation, scientific writing
     - title: Research Master, Epistemology and History of Sciences
       institution: University of Nantes, France
       year: 2018
       items:
         - Epistemological aspects of soil science in the late nineteenth century
-        - Advisor: Prof. Stéphane Tirard
-        - Training: history of life sciences, mathematics and physics, historical document analysis, epistemology general and concepts
+        - Advisor; Prof. Stéphane Tirard
+        - Trainings in history of life sciences, mathematics and physics, historical document analysis, epistemology general and concepts
     - title: Master of Science, Landscape System Sciences
       institution: Eberhard-Karl University of Tübingen, Germany
       year: 2015
       description:
         - Mid-infrared spectroscopy for soil and terrain analysis
-        - value: Advisor: Dr. Leonardo Ramirez-Lopez. In collaboration with the ETH Zurich - Soil and Terrestrial Environmental Physics.
-        - value: Major in Soil Science and Geomorphology: soils and landscape, soils and geomorphology, geoinformatics and ecosystem processes, hydrogeology, soil landscape modeling
+        - Advisor; Dr. Leonardo Ramirez-Lopez. In collaboration with the ETH Zurich - Soil and Terrestrial Environmental Physics.
+        - Major in Soil Science and Geomorphology; soils and landscape, soils and geomorphology, geoinformatics and ecosystem processes, hydrogeology, soil landscape modeling
     - title: Bachelor in Environmental Geography
       institution: University of Angers, France
       year: 2012
@@ -39,67 +39,41 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Marie Skłodowska-Curie Fellow
+      institution: French National Institute for Agriculture, Food, and Environment (INRAE), LISAH group - France
+      year: Since April 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Spatial evaluation and quantification of soil multifunctionality potential and actual state across Europe.
+        - Collaborations with Soil biology group, Wageningen University and Research
+    - title: Research Associate
+      institution: University of Sydney - Sydney Institute of Agriculture - Australia
+      year: September 2019 - March 2023
       description:
-        - Description 1.
-        - Description 2.
+        - Evaluation, quantification and mapping of soil indicators at the regional and national scales in Australia; carbon stocks and sequestration potential, carbon fractions, organic matter stabilization, soil biodiversity and clay minerals.
+        - Collaborations with CSIRO Canberra, TERN Australian Soils and Landscapes.
+    - title: PhD candidate
+      institution: Wageningen University & Research - the Netherlands
+      year: September 2015 - August 2019
+      description: 
+        - Marie Curie Initial Training Network (ITN) - Quantifying Uncertainty in Integrated Catchment Studies (QUICS); hydrology, soil, rainfall-runoff. Development of sampling design optimization techniques for soil mapping and hydrological modelling.
+        - title: Visiting researcher
+        - institution: Sydney Institute of Agriculture - Australia
+        - year: 2018 - 2 months
+        - description: Soil spectroscopy and machine learning for mapping soil properties
+        
+        - title: Visiting researcher
+        - institution: British Geological Survey - United Kingdom
+        - year: 2017 - 3 months
+        - description: Developed sampling design optimization methods for geostatistical modelling of soil properties
+        
+        - title: Visiting researcher
+        - institution: Delft University of Technology - the Netherlands
+        - year: 2016 - 3 months
+        - description: Bayesian calibration of rainfall runoff models. Case study in a mountainous catchment in Switzerland
+         
+        - title: Visiting researcher
+        - institution: University of Bristol - United Kingdom
+        - year: 2016 - 2 months
+        - description: Space-time mapping of rainfall over England using radar and rain gauges
+        
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
