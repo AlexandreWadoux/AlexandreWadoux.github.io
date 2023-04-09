@@ -11,6 +11,12 @@
 - title: Education
   type: time_table
   contents:
+  
+    - title: HDR - Habilitation to Supervise Research
+      institution: University of Montpellier - France
+      year: Expected 2023
+      description: 
+          - Spatio-temporal modelling of soil biophysical indicators and of functions provided by ecosystems
     - title: PhD
       institution: Wageningen University and Research, the Netherlands
       year: 2019
@@ -47,33 +53,39 @@
         - Collaborations with Soil biology group, Wageningen University and Research
     - title: Research Associate
       institution: University of Sydney - Sydney Institute of Agriculture - Australia
-      year: September 2019 - March 2023
+      year: Sept 2019-March 2023
       description:
         - Evaluation, quantification and mapping of soil indicators at the regional and national scales in Australia; carbon stocks and sequestration potential, carbon fractions, organic matter stabilization, soil biodiversity and clay minerals.
         - Collaborations with CSIRO Canberra, TERN Australian Soils and Landscapes.
+  
     - title: PhD candidate
       institution: Wageningen University & Research - the Netherlands
-      year: September 2015 - August 2019
+      year: Sept 2015-August 2019
       description: 
         - Marie Curie Initial Training Network (ITN) - Quantifying Uncertainty in Integrated Catchment Studies (QUICS); hydrology, soil, rainfall-runoff. Development of sampling design optimization techniques for soil mapping and hydrological modelling.
-        - title: Visiting researcher
-        - institution: Sydney Institute of Agriculture - Australia
-        - year: 2018 - 2 months
-        - description: Soil spectroscopy and machine learning for mapping soil properties
+
+    - title: Visiting researcher
+    - institution: Sydney Institute of Agriculture - Australia
+    - year: 2018 - 2 months
+    - description: 
+        - Soil spectroscopy and machine learning for mapping soil properties
         
-        - title: Visiting researcher
-        - institution: British Geological Survey - United Kingdom
-        - year: 2017 - 3 months
-        - description: Developed sampling design optimization methods for geostatistical modelling of soil properties
+    - title: Visiting researcher
+    - institution: British Geological Survey - United Kingdom
+    - year: 2017 - 3 months
+    - description: 
+        - Developed sampling design optimization methods for geostatistical modelling of soil properties
         
-        - title: Visiting researcher
-        - institution: Delft University of Technology - the Netherlands
-        - year: 2016 - 3 months
-        - description: Bayesian calibration of rainfall runoff models. Case study in a mountainous catchment in Switzerland
+    - title: Visiting researcher
+    - institution: Delft University of Technology - the Netherlands
+    - year: 2016 - 3 months
+    - description: 
+        - Bayesian calibration of rainfall runoff models. Case study in a mountainous catchment in Switzerland
          
-        - title: Visiting researcher
-        - institution: University of Bristol - United Kingdom
-        - year: 2016 - 2 months
-        - description: Space-time mapping of rainfall over England using radar and rain gauges
+    - title: Visiting researcher
+    - institution: University of Bristol - United Kingdom
+    - year: 2016 - 2 months
+    - description: 
+        - Space-time mapping of rainfall over England using radar and rain gauges
         
 
