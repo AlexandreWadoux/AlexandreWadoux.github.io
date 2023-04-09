@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 order: 1
-subtitle: PhD, INRAE, France
+subtitle: PhD, French National Institute for Agriculture, Food, and Environment
 
 profile:
   align: right
@@ -30,4 +30,4 @@ I am a soil scientist focusing on soil-landscape modelling. I rely on statistica
 
 I hold a MSc in soil science from the University of Tubingen in Germany, a Master in epistemology of sciences from the University of Nantes in France and a PhD in applied geostatistics from Wageningen University in the Netherlands. Read more about my CV <a href="https://alexandrewadoux.github.io/CV/">here</a>.  
 
-Currently, I am a Marie Skłodowska-Curie Fellow affilitated to the French National Institute for Agriculture, Food, and Environment (INRAE) and working at the (Soil-Agrosystem-Hydrosystem interaction (<a href="https://www.umr-lisah.fr/?q=en">LISAH</a>) lab in Montpellier, France. In my previous role I was working as a Research Associate at the Sydney Institute of Agriculture & School of Life and Environmental Sciences of the University of Sydney in Australia. where I was collaborating with the Australian Terrestrial Ecosystem Research Network and with the CSIRO to map soil biodiversity and soil carbon dynamic at high spatial resolution in Australia, and was working on various research and consultancy projects with partners around the world.
+Currently, I am a Marie Skłodowska-Curie Fellow affilitated to the French National Institute for Agriculture, Food, and Environment (INRAE) and working at the Soil-Agrosystem-Hydrosystem interaction (<a href="https://www.umr-lisah.fr/?q=en">LISAH</a>) lab in Montpellier, France. In my previous role I was working as a Research Associate at the Sydney Institute of Agriculture & School of Life and Environmental Sciences of the University of Sydney in Australia. where I was collaborating with the Australian Terrestrial Ecosystem Research Network and with the CSIRO to map soil biodiversity and soil carbon dynamic at high spatial resolution in Australia, and was working on various research and consultancy projects with partners around the world.
