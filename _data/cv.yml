@@ -16,15 +16,15 @@
       year: 2019
       description:
         - Sampling design optimization for geostatistical modelling and prediction. 
-        - value: Advisors: Prof. Gerard Heuvelink, Dr. Dick Brus
+        - Advisors: Prof. Gerard Heuvelink, Dr. Dick Brus
         - value: Training: hydrology, statistics, modelling, presentation, scientific writing
     - title: Research Master, Epistemology and History of Sciences
       institution: University of Nantes, France
       year: 2018
-      description:
+      items:
         - Epistemological aspects of soil science in the late nineteenth century
-        - value: Advisor: Prof. Stéphane Tirard
-        - value: Training: history of life sciences, mathematics and physics, historical document analysis, epistemology general and concepts
+        - Advisor: Prof. Stéphane Tirard
+        - Training: history of life sciences, mathematics and physics, historical document analysis, epistemology general and concepts
     - title: Master of Science, Landscape System Sciences
       institution: Eberhard-Karl University of Tübingen, Germany
       year: 2015
