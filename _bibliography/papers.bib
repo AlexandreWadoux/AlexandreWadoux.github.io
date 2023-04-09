@@ -1,5 +1,49 @@
 ---
 ---
+@article{wadoux2023participatory,
+  title={Participatory approaches for soil research and management: A literature-based synthesis},
+  author={Wadoux, Alexandre MJ-C and McBratney, Alex B},
+  journal={Soil Security},
+  pages={100085},
+  year={2023},
+  publisher={Elsevier}
+  bibtex_show={true},
+  pdf = {Wadoux_et_al_2023_SS.pdf},
+  abstract = {Participatory approaches to data gathering and research which involve farmers, laypeople, amateur soil scientists, concerned community members or school students have attracted much attention recently, not only to enable scientific progress but also to achieve social and educational outcomes. Non-expert participation in soil research and management is diverse and applied variously, ranging from data collection to inform large-scale monitoring schemes in citizen science projects to projects in which the participants define the object of study and the questions to be answered. The growth of participatory projects to tackle complex environmental and soil-related issues has generated literature that describes both the way the projects are initiated, implemented and the outcomes they achieve. We review the existing literature on participatory soil research and management. Existing studies are classified into three categories based on the degree of participation in the different phases of research. The quality of participation is further evaluated systematically through the five elements that participatory projects usually include: inputs, activities, outputs, outcomes and impacts. We found that the majority of existing participatory projects were contributory in nature, where participants contribute to generating data. Co-created projects which involve a greater level of participation are less frequent. We also found large disparities in the context in which these types of participation occurred: contributory projects were mostly documented in more economically developed countries, whereas projects that suggest greater involvement of participants were mostly formulated in developing countries in relation to soil management and conservation issues. The long-term sustained outcomes of participatory projects on human well-being and socio-ecological systems are seldom reported. We conclude that participatory approaches are opportunities for education, communication and scientific progress and that participation is being facilitated by digital convergence. Participatory projects should, however, also be evaluated in terms of their long-term impact on the participants, to be sure that the expectations of the various parties align with the outcomes. All in all, such participation adds to the quantum of soil connectivity and in this sense makes the soil more secure globally.},
+  doi={https://doi.org/10.1016/j.soisec.2023.100085},
+  html={https://doi.org/10.1016/j.soisec.2023.100085},
+  preview = {Soil_security.gif}
+}
+@article{wadoux2023shapley,
+  title={Shapley values reveal the drivers of soil organic carbon stock prediction},
+  author={Wadoux, Alexandre MJ-C and Saby, Nicolas PA and Martin, Manuel P},
+  journal={SOIL},
+  volume={9},
+  number={1},
+  pages={21--38},
+  year={2023},
+  bibtex_show={true},
+  pdf = {Wadoux_et_al_2023_SOIL.pdf},
+  abstract = {Insights into the controlling factors of soil organic carbon (SOC) stock variation are necessary both for our scientific understanding of the terrestrial carbon balance and to support policies that intend to promote carbon storage in soils to mitigate climate change. In recent years, complex statistical and algorithmic tools from the field of machine learning have become popular for modelling and mapping SOC stocks over large areas. In this paper, we report on the development of a statistical method for interpreting complex models, which we implemented for the study of SOC stock variation. We fitted a random forest machine learning model with 2206 measurements of SOC stocks for the 0–50 cm depth interval from mainland France and used a set of environmental covariates as explanatory variables. We introduce Shapley values, a method from coalitional game theory, and use them to understand how environmental factors influence SOC stock prediction: what is the functional form of the association in the model between SOC stocks and environmental covariates, and how does the covariate importance vary locally from one location to another and between carbon-landscape zones? Results were validated both in light of the existing and well-described soil processes mediating soil carbon storage and with regards to previous studies in the same area. We found that vegetation and topography were overall the most important drivers of SOC stock variation in mainland France but that the set of most important covariates varied greatly among locations and carbon-landscape zones. In two spatial locations with equivalent SOC stocks, there was nearly an opposite pattern in the individual covariate contribution that yielded the prediction – in one case climate variables contributed positively, whereas in the second case climate variables contributed negatively – and this effect was mitigated by land use. We demonstrate that Shapley values are a methodological development that yield useful insights into the importance of factors controlling SOC stock variation in space. This may provide valuable information to understand whether complex empirical models are predicting a property of interest for the right reasons and to formulate hypotheses on the mechanisms driving the carbon sequestration potential of a soil.},
+  doi={https://doi.org/10.5194/soil-9-21-2023},
+  html={https://doi.org/10.5194/soil-9-21-2023},
+  preview = {SOIL.jpg}
+}
+@article{wadoux2022beyond,
+  title={Beyond prediction: methods for interpreting complex models of soil variation},
+  author={Wadoux, Alexandre MJ-C and Molnar, Christoph},
+  journal={Geoderma},
+  volume={422},
+  pages={115953},
+  year={2022},
+  publisher={Elsevier},
+  bibtex_show={true},
+  pdf = {Wadoux_et_al_2022_Beyond.pdf},
+  abstract = {Understanding the spatial variation of soil properties is central to many sub-disciplines of soil science. Commonly in soil mapping studies, a soil map is constructed through prediction by a statistical or non-statistical model calibrated with measured values of the soil property and environmental covariates of which maps are available. In recent years, the field has gradually shifted attention towards more complex statistical and algorithmic tools from the field of machine learning. These models are particularly useful for their predictive capabilities and are often more accurate than classical models, but they lack interpretability and their functioning cannot be readily visualized. There is a need to understand how these models can be used for purposes other than making accurate prediction and whether it is possible to extract information on the relationships among variables found by the models. In this paper we describe and evaluate a set of methods for the interpretation of complex models of soil variation. An overview is presented of how model-independent methods can serve the purpose of interpreting and visualizing different aspects of the model. We illustrate the methods with the interpretation of two mapping models in a case study mapping topsoil organic carbon in France. We reveal the importance of each driver of soil variation, their interaction, as well as the functional form of the association between environmental covariate and the soil property. Interpretation is also conducted locally for an area and two spatial locations with distinct land use and climate. We show that in all cases important insights can be obtained, both into the overall model functioning and into the decision made by the model for a prediction at a location. This underpins the importance of going beyond accurate prediction in soil mapping studies. Interpretation of mapping models reveal how the predictions are made and can help us formulating hypotheses on the underlying soil processes and mechanisms driving soil variation.},
+  doi={https://doi.org/10.1016/j.geoderma.2022.115953},
+  html={https://doi.org/10.1016/j.geoderma.2022.115953},
+  preview = {Geoderma.jpg}
+}
 @article{de2022dealing,
   title={Dealing with clustered samples for assessing map accuracy by cross-validation},
   author={De Bruin, Sytze and Brus, Dick J and Heuvelink, Gerard BM and van Ebbenhorst Tengbergen, Tom and Wadoux, Alexandre MJ-C},
@@ -10,6 +54,7 @@
   publisher={Elsevier},
   bibtex_show={true},
   pdf = {deBruin_et_al_2022.pdf},
+  abstract = {Mapping of environmental variables often relies on map accuracy assessment through cross-validation with the data used for calibrating the underlying mapping model. When the data points are spatially clustered, conventional cross-validation leads to optimistically biased estimates of map accuracy. Several papers have promoted spatial cross-validation as a means to tackle this over-optimism. Many of these papers blame spatial autocorrelation as the cause of the bias and propagate the widespread misconception that spatial proximity of calibration points to validation points invalidates classical statistical validation of maps. We present and evaluate alternative cross-validation approaches for assessing map accuracy from clustered sample data. The first method uses inverse sampling-intensity weighting to correct for selection bias. Sampling-intensity is estimated by a two-dimensional kernel approach. The two other approaches are model-based methods rooted in geostatistics, where the first assumes homogeneity of residual variance over the study area whilst the second accounts for heteroscedasticity as a function of the sampling intensity. The methods were tested and compared against conventional k-fold cross-validation and blocked spatial cross-validation to estimate map accuracy metrics of above-ground biomass and soil organic carbon stock maps covering western Europe. Results acquired over 100 realizations of five sampling designs ranging from non-clustered to strongly clustered confirmed that inverse sampling-intensity weighting and the heteroscedastic model-based method had smaller bias than conventional and spatial cross-validation for all but the most strongly clustered design. For the strongly clustered design where large portions of the maps were predicted by extrapolation, blocked spatial cross-validation was closest to the reference map accuracy metrics, but still biased. For such cases, extrapolation is best avoided by additional sampling or limitation of the prediction area. Weighted cross-validation is recommended for moderately clustered samples, while conventional random cross-validation suits fairly regularly spread samples.},
   doi={https://doi.org/10.1016/j.ecoinf.2022.101665},
   html={https://doi.org/10.1016/j.ecoinf.2022.101665},
   preview = {EcolInfor.jpg}
