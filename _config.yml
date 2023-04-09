@@ -205,7 +205,7 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 scholar:
 
   last_name: [Wadoux]
-  first_name: [Alexandre MJ-C]
+  first_name: [Alexandre]
 
   style: apa
   locale: en
