@@ -2,31 +2,39 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Alexandre Wadoux
     - name: Date of Birth
-      value: 14th March 1879
+      value: 19th October 1991
     - name: Languages
-      value: English, German
+      value: French, English, Spanish, German
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Wageningen University and Research, the Netherlands
+      year: 2019
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Sampling design optimization for geostatistical modelling and prediction. 
+        - Advisors: Prof. Gerard Heuvelink, Dr. Dick Brus
+        - Training: hydrology, statistics, modelling, presentation, scientific writing
+    - title: Research Master, Epistemology and History of Sciences
+      institution: University of Nantes, France
+      year: 2018
       description:
-        - Description 1.
-        - Description 2.
+        - Epistemological aspects of soil science in the late nineteenth century
+        - Advisor: Prof. Stéphane Tirard
+        - Training: history of life sciences, mathematics and physics, historical document analysis, epistemology general and concepts
+    - title: Master of Science, Landscape System Sciences
+      institution: Eberhard-Karl University of Tübingen, Germany
+      year: 2015
+      description:
+        - Mid-infrared spectroscopy for soil and terrain analysis
+        - Advisor: Dr. Leonardo Ramirez-Lopez. In collaboration with the ETH Zurich - Soil and Terrestrial Environmental Physics.
+        - Major in Soil Science and Geomorphology: soils and landscape, soils and geomorphology, geoinformatics and ecosystem processes, hydrogeology, soil landscape modeling
+    - title: Bachelor in Environmental Geography
+      institution: University of Angers, France
+      year: 2012
 
 - title: Experience
   type: time_table
