@@ -9,15 +9,18 @@ nav_order: 5
 
 ----
 
+<details>
+<summary><b>Preview title</b></summary>
 
-<details open>
-<summary><h2> DETAILS </h2></summary>
-This is the content of the collapsible section. You can include any Markdown-formatted text, lists, or code here.
-</details>
+_Markdown is valid, but add empty lines to separate from the HTML tags._
 
 :telephone_receiver: +61 491 747 770
 
 :email: alexandre.wadoux@yahoo.fr
+
+</details>
+
+
 
 ----
 **ENQUIRIES**
