@@ -11,18 +11,8 @@ nav_order: 5
 
 <details>
   <summary><b>About the course</b></summary>
-### Heading
- 1. Foo
- 2. Bar
-   * Baz
-     * Qux
-
-
-Test 
-
-Test 
-
--te 
+# test
+  ## test
 </details>
 
 <details>
