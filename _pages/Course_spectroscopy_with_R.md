@@ -28,6 +28,15 @@ _Markdown is valid, but add empty lines to separate from the HTML tags._
 
 </details>
 
+<details>
+	<summary>Click to expand</summary>
+	<pre>
+		
+	Long content here
+	</pre>
+
+</details>
+
 
 ----
 **ENQUIRIES**
