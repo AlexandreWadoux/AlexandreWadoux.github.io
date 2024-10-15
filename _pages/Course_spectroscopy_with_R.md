@@ -10,16 +10,24 @@ nav_order: 5
 ----
 
 <details>
-<summary><b>Preview title</b></summary>
+<summary><b>About the course</b></summary>
 
 _Markdown is valid, but add empty lines to separate from the HTML tags._
 
-:telephone_receiver: +61 491 747 770
-
-:email: alexandre.wadoux@yahoo.fr
+  1. Foo
+  2. Bar
 
 </details>
 
+<details>
+<summary><b>Intended audience</b></summary>
+
+_Markdown is valid, but add empty lines to separate from the HTML tags._
+
+  1. Foo
+  2. Bar
+
+</details>
 
 
 ----
