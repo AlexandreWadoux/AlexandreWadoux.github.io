@@ -11,8 +11,11 @@ nav_order: 5
 
 <details>
   <summary><b>About the course</b></summary>
+  
 # test
+  
   ## test
+  
 </details>
 
 <details>
