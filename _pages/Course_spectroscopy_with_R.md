@@ -13,7 +13,6 @@ nav_order: 5
 <summary><b>About the course</b></summary>
 
 Markdown is valid, but add empty lines to separate from the HTML tags.
-
 - Foo
 - Bar
 
