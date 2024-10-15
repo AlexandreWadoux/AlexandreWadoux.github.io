@@ -799,10 +799,6 @@ pre {
   color: white;
 }
 
-body {
-  background-color: black;
-}
-
 d-byline a, d-article d-byline a {
   color: var(--global-text-color) !important;
 }
