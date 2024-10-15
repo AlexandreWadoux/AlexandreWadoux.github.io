@@ -10,7 +10,7 @@ nav_order: 5
 ----
 
 
-<details>
+<details open>
 <summary><h2> DETAILS </h2></summary>
 This is the content of the collapsible section. You can include any Markdown-formatted text, lists, or code here.
 </details>
