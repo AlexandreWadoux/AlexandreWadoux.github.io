@@ -32,7 +32,9 @@
     display: none;
   }
 }
-
+pre {
+    color: grey;
+}
 html[data-theme='dark'] {
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
