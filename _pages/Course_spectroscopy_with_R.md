@@ -11,7 +11,7 @@ nav_order: 5
 
 <details>
 <summary><b>Intended audience</b></summary>
-	<pre style="background: #d6d2d2;color:#fff;
+	<pre style="background: #d6d2d2;color:black;
             padding:5px; font-size: 14px;">
 this is a test 
 - another test
