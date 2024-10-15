@@ -10,26 +10,16 @@ nav_order: 5
 ----
 
 <details>
-  <summary><b>About the course</b></summary>
-  
-# test
-  
-  ## test
-  
-</details>
-
-<details>
 <summary><b>Intended audience</b></summary>
-
-_Markdown is valid, but add empty lines to separate from the HTML tags._
-
-  1. Foo
-  2. Bar
-
+	<pre>
+this is a test 
+- another test
+- another test 
+	</pre>
 </details>
 
 <details>
-	<summary>Click to expand</summary>
+  <summary><b>About the course</b></summary>
 	<pre>
 this is a test 
 - another test
