@@ -10,7 +10,7 @@ nav_order: 6
 ----
 **DETAILS**
 
-:telephone_receiver: +61 491 747 770
+:telephone_receiver: +33 7 45 13 77 94
 
 :email: alexandre.wadoux@yahoo.fr
 
