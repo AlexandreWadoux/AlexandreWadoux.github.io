@@ -1,7 +1,7 @@
 ---
 layout: contact
 permalink: /Course/
-title: Course Spectroscopy with R
+title: Course spectroscopy
 description: 
 nav: true
 nav_order: 5
