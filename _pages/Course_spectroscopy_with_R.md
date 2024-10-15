@@ -9,12 +9,14 @@ nav_order: 5
 
 ----
 
-<details open>
-<summary><b>About the course</b></summary>
-
-Markdown is valid, but add empty lines to separate from the HTML tags.
-- Foo
-- Bar
+<details>
+  <summary><b>About the course</b></summary>
+  
+  ### Heading
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
 
 </details>
 
