@@ -8,23 +8,13 @@ nav_order: 5
 ---
 
 ----
-**DETAILS**
+
 
 <details>
-  <summary>Click me</summary>
-  
-  ### Heading
-  1. Foo
-  2. Bar
-     * Baz
-     * Qux
+<summary>**DETAILS**</summary>
 
-  ### Some Javascript
-  ```js
-  function logSomething(something) {
-    console.log('Something', something);
-  }
-  ```
+This is the content of the collapsible section. You can include any Markdown-formatted text, lists, or code here.
+
 </details>
 
 :telephone_receiver: +61 491 747 770
