@@ -22,7 +22,7 @@
     <!-- Fonts & Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CRoboto+Slab:100,300,400,500,700%7CMaterial+Icons">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -125,8 +125,86 @@
           <article>
             <!-- _pages/publications.md -->
 <div class="publications">
+  <h2 class="year">2024</h2>
+  <ol class="bibliography"></ol>
+
   <h2 class="year">2023</h2>
   <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/EJSS_2020-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/EJSS_2020-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/EJSS_2020-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/EJSS_2020.jpg" class="preview z-depth-1 rounded" width="auto" height="auto" alt="EJSS_2020.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
+
+        <!-- Entry bib key -->
+        <div id="wadoux2023interpretable" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Interpretable spectroscopic modelling of soil with machine learning</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Alexandre M J-C Wadoux</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>European Journal of Soil Science</em>, 2023
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://doi.org/10.1111/ejss.133703" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="/assets/pdf/Wadoux_2023.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="https://doi.org/10.1111/ejss.13370"></span>
+              <span class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1111/ejss.13370" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Spectroscopic modelling of soil has advanced greatly with the development of large spectral libraries, computational resources and statistical modelling. The use of complex statistical and algorithmic tools from the field of machine learning has become popular for predicting properties from their visible, near- and mid-infrared spectra. Many users, however, find it difficult to trust the predictions made with machine learning. We lack interpretation and understanding of how the predictions were made, so that these models are often referred to as black boxes. In this study, I report on the development and application of a model-independent method for interpreting complex machine learning spectroscopic models. The method relies on Shapley values, a statistical approach originally developed in coalitional game theory. In a case study for predicting the total organic carbon from a large European mid-infrared spectroscopic database, I fitted a random forest machine learning model and showed how Shapley values can help us understand (i) the average contribution of individual wavenumbers, (ii) the contribution of the spectrum-specific wavenumbers, and (iii) the average contribution of groups of spectra taken together with similar characteristics. The results show that Shapley values revealed more insights than commonly used interpretation methods based on the variable importance. The most striking spectral regions identified as important contributors to the prediction corresponded to the molecular vibration of organic and inorganic compounds that are known to relate to organic carbon. Shapley values are a useful methodological development that will yield a better understanding and trust of complex machine learning and algorithmic tool in soil spectroscopy research.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">wadoux2023interpretable</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Interpretable spectroscopic modelling of soil with machine learning}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Wadoux, Alexandre M J-C}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{European Journal of Soil Science}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{74}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{3}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{e13370}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Wiley Online Library}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{https://doi.org/10.1111/ejss.13370}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
@@ -3345,7 +3423,7 @@
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2023 Alexandre M.J.-C. Wadoux. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
+        © Copyright 2024 Alexandre M.J.-C. Wadoux. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
 
       </div>
     </footer>
