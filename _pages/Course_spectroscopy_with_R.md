@@ -14,8 +14,8 @@ nav_order: 5
 
 _Markdown is valid, but add empty lines to separate from the HTML tags._
 
-  1. Foo
-  2. Bar
+1. Foo
+2. Bar
 
 </details>
 
