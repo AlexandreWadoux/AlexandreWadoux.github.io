@@ -15,8 +15,7 @@ nav_order: 5
             padding:5px; font-size: 14px;">
 this is a test 
 - another test
-- another test 
-	</pre>
+- another test </pre>
 </details>
 
 <details>
