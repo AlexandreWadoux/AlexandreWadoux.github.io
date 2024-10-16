@@ -37,6 +37,21 @@ A list
 
 </details>
 ----
-**ENQUIRIES**
 
-> Thank you for your interest. If you wish to inquire about my research or my consulting services please fill out the form below and I will get back to you.
+**Enrollment Form**
+
+> Thank you for your interest in this course. To enroll in the course, please fill out the form below and complete your payment.
+
+**Payment**
+
+Please make your payment using the button below:
+
+[![Pay Now](https://via.placeholder.com/150x50?text=Pay+Now)](https://yourpaymentlink.com)
+
+**Contact Information**
+
+If you have any questions, feel free to contact us at [support@example.com](mailto:support@example.com).
+
+**Note:** This course is limited to 30 participants, so secure your spot today!
+
+---
