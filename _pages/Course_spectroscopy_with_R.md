@@ -38,6 +38,10 @@ A list
 </details>
 ----
 
+**Enrollment Form**
+
+> Thank you for your interest in this course. To enroll in the course, please fill out the form below and complete your payment.
+
 {{ content }}
 {% include contact-form.html %}
 
@@ -53,8 +57,6 @@ If you have any questions, feel free to contact us at [support@example.com](mail
 
 **Note:** This course is limited to 30 participants, so secure your spot today!
 
-**Enrollment Form**
 
-> Thank you for your interest in this course. To enroll in the course, please fill out the form below and complete your payment.
 
 ---
