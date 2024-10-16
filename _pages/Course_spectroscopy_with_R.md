@@ -1,5 +1,5 @@
 ---
-layout: contact
+layout: default
 permalink: /Course/
 title: Course
 description: 
