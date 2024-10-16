@@ -44,15 +44,13 @@ If you have any questions, feel free to contact us at [alexandre.wadoux@yahoo.fr
 
 **Note:** This course is limited to 20 participants, so secure your spot today!
 
-## Payment
-
-Please make your payment using the button below:
-
-[![Pay Now](https://via.placeholder.com/150x50?text=Pay+Now)](https://yourpaymentlink.com)
-
-## Enrollment Form
+## Enrollment form
 
 > Thank you for your interest in this course. To enroll in the course, please fill out the form below to provide your contact details and complete your payment.
+
+**Payment**
+Please make your payment using the button below:
+[![Pay Now](https://via.placeholder.com/150x50?text=Pay+Now)](https://yourpaymentlink.com)
 
 
 
