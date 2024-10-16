@@ -42,7 +42,6 @@ A list
 
 > Thank you for your interest in this course. To enroll in the course, please fill out the form below and complete your payment.
 
-{{ content }}
 {% include contact-form.html %}
 
 **Payment**
