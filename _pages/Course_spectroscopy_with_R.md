@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: contact
 permalink: /Course/
 title: Course
 description: 
@@ -38,22 +38,21 @@ A list
 </details>
 ----
 
-**Enrollment Form**
-
-> Thank you for your interest in this course. To enroll in the course, please fill out the form below and complete your payment.
-{% include contact-form.html %}
-
-**Payment**
-
-Please make your payment using the button below:
-
-[![Pay Now](https://via.placeholder.com/150x50?text=Pay+Now)](https://yourpaymentlink.com)
-
 **Contact Information**
 
 If you have any questions, feel free to contact us at [support@example.com](mailto:support@example.com).
 
 **Note:** This course is limited to 30 participants, so secure your spot today!
+
+## Payment
+
+Please make your payment using the button below:
+
+[![Pay Now](https://via.placeholder.com/150x50?text=Pay+Now)](https://yourpaymentlink.com)
+
+## Enrollment Form
+
+> Thank you for your interest in this course. To enroll in the course, please fill out the form below and complete your payment.
 
 
 
