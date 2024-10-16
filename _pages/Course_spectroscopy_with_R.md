@@ -40,9 +40,9 @@ A list
 
 **Contact Information**
 
-If you have any questions, feel free to contact us at [support@example.com](mailto:support@example.com).
+If you have any questions, feel free to contact us at [alexandre.wadoux@yahoo.fr](mailto:alexandre.wadoux@yahoo.fr).
 
-**Note:** This course is limited to 30 participants, so secure your spot today!
+**Note:** This course is limited to 20 participants, so secure your spot today!
 
 ## Payment
 
@@ -52,7 +52,7 @@ Please make your payment using the button below:
 
 ## Enrollment Form
 
-> Thank you for your interest in this course. To enroll in the course, please fill out the form below and complete your payment.
+> Thank you for your interest in this course. To enroll in the course, please fill out the form below to provide your contact details and complete your payment.
 
 
 
