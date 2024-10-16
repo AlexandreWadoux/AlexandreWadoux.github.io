@@ -50,6 +50,7 @@ If you have any questions, feel free to contact us at [alexandre.wadoux@yahoo.fr
 
 **Payment**
 Please make your payment using the button below:
+
 [![Pay Now](https://via.placeholder.com/150x50?text=Pay+Now)](https://yourpaymentlink.com)
 
 
