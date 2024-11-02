@@ -89,22 +89,6 @@ Classes run from 09:00 to 17:00 CET on Day 2, which will focus on spectral simil
 Classes run from 09:00 to 17:00 CET on Day 3, which will include estimating properties from spectra, an introduction to multivariate statistical models, a practical session on statistical modeling, validation of predictions, a practical session on validation, and an opportunity to bring your own data or participate in a large exercise estimating properties from raw spectra, followed by a discussion and questions.
 </details>
 
-
-<details>
-<summary><b>Thursday 27th February, 2025</b></summary>
-
-**Classes from 09:00 to 17:00 CET**
-
-**DAY 3**
-- Estimating properties from spectra
-- Multivariate statistical models
-- Practical
-- Validation of the predictions
-- Practical
-- Bring your own data! – or large exercise estimating properties from raw spectra
-- Discussion & questions
-
-</details>
 ----
 
 **Contact Information**
