@@ -123,7 +123,23 @@
 
 <p><strong>Tuesday, February 25th, 2025</strong></p>
 
-<p><img src="/assets/img/image1.jpg" alt="GIF"></p>
+<p><img src="/assets/img/Image1.jpg" alt="GIF"></p>
+
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/mygifcourse.gif-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/mygifcourse.gif-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/mygifcourse.gif-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/mygifcourse.gif" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
 
 <h2 id="course-format">COURSE FORMAT</h2>
 <p>This is a  ‘LIVE COURSE’ – the instructor will be delivering lectures and coaching attendees through the accompanying computer practical’s via video link, a good internet connection is essential.</p>
