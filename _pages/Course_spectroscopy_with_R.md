@@ -147,6 +147,6 @@ Please make your payment using the button below:
 
 PLEASE READ – CANCELLATION POLICY
 
-Cancellations are accepted up to 28 days before the course start date subject to a 25% cancellation fee. Cancellations later than this may be considered, contact oliverhooker@prstatistics.com. Failure to attend will result in the full cost of the course being charged. In the unfortunate event that a course is cancelled due to unforeseen circumstances a full refund of the course fees will be credited.
+Cancellations are accepted up to 28 days before the course start date subject to a 25% cancellation fee. Cancellations later than this may be considered, contact [alexandre.wadoux@yahoo.fr](mailto:alexandre.wadoux@yahoo.fr). Failure to attend will result in the full cost of the course being charged. In the unfortunate event that a course is cancelled due to unforeseen circumstances a full refund of the course fees will be credited.
 
 ---
