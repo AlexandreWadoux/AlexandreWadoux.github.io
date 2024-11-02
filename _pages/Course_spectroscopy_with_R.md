@@ -14,7 +14,9 @@ nav_order: 5
 
 ![GIF](/assets/img/Image1.jpg)
 
+
 {% include figure.html path="assets/img/mygifcourse.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+
 
 ## COURSE FORMAT
 This is a  'LIVE COURSE' – the instructor will be delivering lectures and coaching attendees through the accompanying computer practical's via video link, a good internet connection is essential.
