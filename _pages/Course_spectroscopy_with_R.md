@@ -8,7 +8,8 @@ nav_order: 5
 ---
 
 ----
-# ONLINE COURSE – **Quantitative analysis of infrared spectroscopy data for soil and plant sciences** - This course will be delivered live
+# ONLINE COURSE – **Quantitative analysis of infrared spectroscopy data for soil and plant sciences**
+This course will be delivered live
 
 **Tuesday, February 25th, 2025**
 
