@@ -12,7 +12,7 @@ nav_order: 5
 
 **Tuesday, February 25th, 2025**
 
-![GIF](myGIF_course.gif)
+![GIF](/assets/img/mygifcourse.gif)
 
 ## COURSE FORMAT
 This is a  'LIVE COURSE' – the instructor will be delivering lectures and coaching attendees through the accompanying computer practical's via video link, a good internet connection is essential.
