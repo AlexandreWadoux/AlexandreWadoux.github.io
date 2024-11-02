@@ -13,10 +13,7 @@ This course will be delivered live
 
 **Tuesday, February 25th, 2025**
 
-![test4](mycourse.gif)
-
 <img src="{{ site.baseurl }}/assets/img/mycourse.gif">
-
 
 ## COURSE FORMAT
 This is a  'LIVE COURSE' – the instructor will be delivering lectures and coaching attendees through the accompanying computer practical's via video link, a good internet connection is essential.
@@ -28,7 +25,7 @@ Please email [alexandre.wadoux@yahoo.fr](mailto:alexandre.wadoux@yahoo.fr) for f
 
 ## ABOUT THE COURSE
 
-This 3-day short course is aimed at providing an introduction to the analysis infrared spectroscopy data using the R programming language. Infrared spectroscopy is a high-throughput, non-destructive, and cheap sensing method that has a large range of applications in agricultural, plant and environmental sciences. Theory underpinning the visible, near and mid-infrared reflectance will be discussed, as well as interpretation of the wavelengths corresponding to specific molecular vibrations and the pre-processing of the raw spectra (day 1). We will then cover chemometric methods for exploratory spectral analysis with principal component analysis. We will have the opportunity to detect outlier spectra as well as to select the samples for laboratory analysis using the spectral data (day 2).  Finally, we will introduce methods for building accurate multivariate models. Multivariate models will be explained and tested, including machine learning and conventional statistical algorithms. Sessions will be a blend of interactive demonstrations/practical and lectures, where learners will have the opportunity to ask questions throughout. Prior to the course, attendees will receive R script and datasets and a list of R packages to install.
+This **3-day short course** is aimed at providing an introduction to the analysis infrared spectroscopy data using the R programming language. Infrared spectroscopy is a high-throughput, non-destructive, and cheap sensing method that has a large range of applications in agricultural, plant and environmental sciences. Theory underpinning the visible, near and mid-infrared reflectance will be discussed, as well as interpretation of the wavelengths corresponding to specific molecular vibrations and the pre-processing of the raw spectra (**day 1**). We will then cover chemometric methods for exploratory spectral analysis with principal component analysis. We will have the opportunity to detect outlier spectra as well as to select the samples for laboratory analysis using the spectral data (**day 2**). Finally, we will introduce methods for building accurate multivariate models. Multivariate models will be explained and tested, including machine learning and conventional statistical algorithms (**day 3**). Sessions will be a blend of interactive demonstrations/practical and lectures, where learners will have the opportunity to ask questions throughout. Prior to the course, attendees will receive R script and datasets and a list of R packages to install.
 
 By the end of the course, participants should be able to:
 
