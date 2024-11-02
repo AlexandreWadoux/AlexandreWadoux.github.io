@@ -13,6 +13,8 @@ nav_order: 5
 $${\color{Event Date}}$$
 **Tuesday, February 25th, 2025**
 
+![screenshot](image_course.jpg)
+
 ## COURSE FORMAT
 This is a  'LIVE COURSE' – the instructor will be delivering lectures and coaching attendees through the accompanying computer practical's via video link, a good internet connection is essential.
 
