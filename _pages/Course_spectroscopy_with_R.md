@@ -13,13 +13,13 @@ This course will be delivered live
 
 **Tuesday, February 25th, 2025**
 
-![](/assets/img/Image1.jpg=100x20)
+![test1](/assets/img/Image1.jpg=100x20)
 
-![](/assets/img/mygifcourse.gif)
+![test1](/assets/img/mygifcourse.gif)
 
-<img src="/assets/img/mygifcourse.gif" width="200" height="200" />
+<img src="./assets/img/mygifcourse.gif" width="200" height="200" />
 
-<img src="mygifcourse.gif" width="200" height="200" />
+<img src="mygifcourse.gif" align="left"/>
 
 ## COURSE FORMAT
 This is a  'LIVE COURSE' – the instructor will be delivering lectures and coaching attendees through the accompanying computer practical's via video link, a good internet connection is essential.
