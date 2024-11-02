@@ -10,10 +10,9 @@ nav_order: 5
 ----
 # ONLINE COURSE – **Quantitative analysis of infrared spectroscopy data for soil and plant sciences** - This course will be delivered live
 
-$${\color{Event Date}}$$
 **Tuesday, February 25th, 2025**
 
-![THE gif](AlexandreWadoux.github.io/assets/img/myGIF_course.gif)
+![GIF](./assets/img/myGIF_course.gif)
 
 ## COURSE FORMAT
 This is a  'LIVE COURSE' – the instructor will be delivering lectures and coaching attendees through the accompanying computer practical's via video link, a good internet connection is essential.
@@ -152,11 +151,11 @@ DAY 3
 
 **Contact Information**
 
-If you have any questions, feel free to contact us at [alexandre.wadoux@yahoo.fr](mailto:alexandre.wadoux@yahoo.fr).
+If you are unsure about course suitability, please get in touch by email to find out more [alexandre.wadoux@yahoo.fr](mailto:alexandre.wadoux@yahoo.fr).
 
 **Note:** This course is limited to 20 participants, so secure your spot today!
 
-## Enrollment FORM
+## Enrollment form
 
 > Thank you for your interest in this course. To enroll in the course, please fill out the form below to provide your contact details and complete your payment.
 
@@ -165,6 +164,8 @@ Please make your payment using the button below:
 
 [![Pay Now](https://via.placeholder.com/150x50?text=Pay+Now)](https://www.nature.com/articles/s41598-021-85639-y)
 
+PLEASE READ – CANCELLATION POLICY
 
+Cancellations are accepted up to 28 days before the course start date subject to a 25% cancellation fee. Cancellations later than this may be considered, contact oliverhooker@prstatistics.com. Failure to attend will result in the full cost of the course being charged. In the unfortunate event that a course is cancelled due to unforeseen circumstances a full refund of the course fees will be credited.
 
 ---
