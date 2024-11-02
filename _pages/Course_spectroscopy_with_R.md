@@ -36,23 +36,19 @@ By the end of the course, participants should be able to:
 
 <details>
 <summary><b>INTENDED AUDIENCES</b></summary>
-	<pre style="background: #d6d2d2;color:black;
-            padding:5px; font-size: 14px;">
 This course is aimed at anyone who wishes to introduce into the analysis of visible, near and mid-infrared spectral data for plant and soil sciences. It is particularly suited for:
 - Graduate, post-graduate or post-doctoral level researchers who wish to learn how to analyse their own infrared data in R.
-- Applied researchers and analysts in the environmental or ecological sector with a role in handling and analysing infrared spectroscopy data. </pre>
+- Applied researchers and analysts in the environmental or ecological sector with a role in handling and analysing infrared spectroscopy data. 
 </details>
 
 <details>
 <summary><b>COURSE DETAILS</b></summary>
-	<pre style="background: #d6d2d2;color:black;
-            padding:5px; font-size: 14px;">
 - Time zone – CET
 - Availability – TBC
 - Duration – 3 days
 - Contact hours – Approx. 20 hours
 - ECT's – Equal to 2 ECT's
-- Language – English </pre>
+- Language – English 
 </details>
 
 <details>
@@ -62,24 +58,16 @@ This course will comprise a mixture of taught theory and practical examples. Dat
 
 <details>
 <summary><b>ASSUMED QUANTITATIVE KNOWLEDGE</b></summary>
-	<pre style="background: #d6d2d2;color:black;
-            padding:5px; font-size: 14px;">
 Understanding of basic concept of sensing in the infrared range of the electromagnetic spectrum and prior knowledge of basic statistical techniques (e.g. linear regression).
- </pre>
 </details>
 
 <details>
 <summary><b>ASSUMED COMPUTER BACKGROUND</b></summary>
-	<pre style="background: #d6d2d2;color:black;
-            padding:5px; font-size: 14px;">
 Prior basic experience with performing statistical analyses using R and R Studio will be assumed, but is not a requirement.
-</pre>
 </details>
 
 <details>
 <summary><b>EQUIPMENT AND SOFTWARE REQUIREMENT</b></summary>
-	<pre style="background: #d6d2d2;color:black;
-            padding:5px; font-size: 14px;">
 A laptop computer with a working version of R or RStudio is required. R and RStudio are both available as free and open-source software for PCs, Macs, and Linux computers. R may be downloaded by following the links here https://www.r-project.org/. RStudio may be downloaded by following the links [R studio](https://www.rstudio.com/).
 
  - All the R packages that we will use in this course will be possible to download and install during the workshop itself as and when they are needed, and a full list of required packages will be made available to all attendees prior to the course.
@@ -91,14 +79,12 @@ A laptop computer with a working version of R or RStudio is required. R and RStu
   	- [Download R](https://cran.r-project.org/bin/windows/base/)
 	- [Download RStudio](https://www.rstudio.com/)
 	- [Download Zoom](https://zoom.us/fr/download)
- </pre>
 </details>
 
 ## COURSE PROGRAMME
 <details>
 <summary><b>Tuesday 25th February, 2025</b></summary>
-	<pre style="background: #d6d2d2;color:black;
-            padding:5px; font-size: 14px;">
+
 **Classes from 09:00 to 17:00 CET**
 
 DAY 1
@@ -109,13 +95,12 @@ DAY 1
 – Practical
 – Exploratory spectral analysis
 – Practical
-</pre>
+
 </details>
 
 <details>
 <summary><b>Wednesday 26th February, 2025</b></summary>
-	<pre style="background: #d6d2d2;color:black;
-            padding:5px; font-size: 14px;">
+
 **Classes from 09:00 to 17:00 CET**
 
 DAY 2
@@ -124,13 +109,12 @@ DAY 2
 – Practical
 – Selecting the samples for laboratory analysis
 – Practical
- </pre>
+
 </details>
 
 <details>
 <summary><b>Thursday 27th February, 2025</b></summary>
-	<pre style="background: #d6d2d2;color:black;
-            padding:5px; font-size: 14px;">
+
 **Classes from 09:00 to 17:00 CET**
 		
 DAY 3
@@ -141,7 +125,7 @@ DAY 3
 – Practical
 – Bring your own data! – OR large exercise estimating properties from raw spectra
 – Discussion & questions
- </pre>
+
 </details>
 
 ----
