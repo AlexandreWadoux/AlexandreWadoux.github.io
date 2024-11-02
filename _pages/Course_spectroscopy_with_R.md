@@ -13,7 +13,7 @@ This course will be delivered live
 
 **Tuesday, February 25th, 2025**
 
-![test1](/assets/img/Image1.jpg=100x20)
+![test1](/assets/img/Image1.jpg = 100x20)
 
 ![test1](/assets/img/mygifcourse.gif)
 
