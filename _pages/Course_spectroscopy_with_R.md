@@ -12,7 +12,7 @@ nav_order: 5
 
 **Tuesday, February 25th, 2025**
 
-![GIF](/assets/img/mygifcourse.gif)
+![GIF](/assets/img/image1.jpg)
 
 ## COURSE FORMAT
 This is a  'LIVE COURSE' – the instructor will be delivering lectures and coaching attendees through the accompanying computer practical's via video link, a good internet connection is essential.
@@ -69,11 +69,8 @@ Prior basic experience with performing statistical analyses using R and R Studio
 <details>
 <summary><b>EQUIPMENT AND SOFTWARE REQUIREMENT</b></summary>
 A laptop computer with a working version of R or RStudio is required. R and RStudio are both available as free and open-source software for PCs, Macs, and Linux computers. R may be downloaded by following the links here https://www.r-project.org/. RStudio may be downloaded by following the links [R studio](https://www.rstudio.com/).
-
  - All the R packages that we will use in this course will be possible to download and install during the workshop itself as and when they are needed, and a full list of required packages will be made available to all attendees prior to the course.
-
  - A working webcam is desirable for enhanced interactivity during the live sessions, we encourage attendees to keep their cameras on during live zoom sessions.
-
  - Although not strictly required, using a large monitor or preferably even a second monitor will improve the learning experience
 
   	- [Download R](https://cran.r-project.org/bin/windows/base/)
