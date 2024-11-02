@@ -13,10 +13,9 @@ This course will be delivered live
 
 **Tuesday, February 25th, 2025**
 
-![GIF](/assets/img/Image1.jpg)
+![](/assets/img/Image1.jpg=100x20)
 
-
-{% include figure.html path="assets/img/mygifcourse.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+![](/assets/img/mygifcourse.gif)
 
 
 ## COURSE FORMAT
