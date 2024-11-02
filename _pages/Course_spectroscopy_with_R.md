@@ -34,7 +34,7 @@ By the end of the course, participants should be able to:
 * Apply statistical multivariate modelling methods to infrared spectroscopy data and validate the model predictions.
 
 <details>
-<summary><b>INTENDED AUDIENCESe</b></summary>
+<summary><b>INTENDED AUDIENCES</b></summary>
 	<pre style="background: #d6d2d2;color:black;
             padding:5px; font-size: 14px;">
 this is a test 
