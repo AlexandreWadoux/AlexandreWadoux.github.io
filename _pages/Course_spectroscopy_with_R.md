@@ -8,12 +8,12 @@ nav_order: 5
 ---
 
 ----
-# ONLINE COURSE – Quantitative analysis of infrared spectroscopy data for soil and plant sciences -- This course will be delivered live
+# ONLINE COURSE – **Quantitative analysis of infrared spectroscopy data for soil and plant sciences** - This course will be delivered live
 
 $${\color{Event Date}}$$
 **Tuesday, February 25th, 2025**
 
-![screenshot](image_course.jpg)
+![Alt Text](myGIF_course.gif)
 
 ## COURSE FORMAT
 This is a  'LIVE COURSE' – the instructor will be delivering lectures and coaching attendees through the accompanying computer practical's via video link, a good internet connection is essential.
@@ -21,7 +21,7 @@ This is a  'LIVE COURSE' – the instructor will be delivering lectures and coac
 ## TIME ZONE
 TIME ZONE – Central European Standard Time – however all sessions will be recorded and made available allowing attendees from different time zones to follow.
 
-Please email alexandre.wadoux@yahoo.fr for full details or to discuss how we can accommodate you.
+Please email [alexandre.wadoux@yahoo.fr](mailto:alexandre.wadoux@yahoo.fr) for full details or to discuss how we can accommodate you.
 
 ## ABOUT THE COURSE
 
@@ -106,7 +106,7 @@ If you have any questions, feel free to contact us at [alexandre.wadoux@yahoo.fr
 
 **Note:** This course is limited to 20 participants, so secure your spot today!
 
-## Enrollment form
+## Enrollment FORM
 
 > Thank you for your interest in this course. To enroll in the course, please fill out the form below to provide your contact details and complete your payment.
 
