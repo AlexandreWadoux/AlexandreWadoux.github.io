@@ -17,6 +17,7 @@ This course will be delivered live
 
 ![](/assets/img/mygifcourse.gif)
 
+<img src="/assets/img/mygifcourse.gif" width="200" height="200" />
 
 ## COURSE FORMAT
 This is a  'LIVE COURSE' – the instructor will be delivering lectures and coaching attendees through the accompanying computer practical's via video link, a good internet connection is essential.
