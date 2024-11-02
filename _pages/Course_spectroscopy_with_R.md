@@ -98,6 +98,56 @@ A laptop computer with a working version of R or RStudio is required. R and RStu
  </pre>
 </details>
 
+## COURSE PROGRAMME
+<details>
+<summary><b>Tuesday 25th February, 2025</b></summary>
+	<pre style="background: #d6d2d2;color:black;
+            padding:5px; font-size: 14px;">
+**Classes from 09:00 to 17:00 CET**
+
+DAY 1
+– Introduction to spectral inference in soil and plant sciences
+– Handling spectral data
+– Practical
+– The pre-processing of raw spectra
+– Practical
+– Exploratory spectral analysis
+– Practical
+</pre>
+</details>
+
+<details>
+<summary><b>Wednesday 26th February, 2025</b></summary>
+	<pre style="background: #d6d2d2;color:black;
+            padding:5px; font-size: 14px;">
+**Classes from 09:00 to 17:00 CET**
+
+DAY 2
+– Spectral similarity analysis
+– The detection of outliers
+– Practical
+– Selecting the samples for laboratory analysis
+– Practical
+ </pre>
+</details>
+
+<details>
+<summary><b>Thursday 27th February, 2025</b></summary>
+	<pre style="background: #d6d2d2;color:black;
+            padding:5px; font-size: 14px;">
+**Classes from 09:00 to 17:00 CET**
+		
+DAY 3
+– Estimating properties from spectra
+ -Multivariate statistical models
+– Practical
+– Validation of the predictions
+– Practical
+– Bring your own data! – OR large exercise estimating properties from raw spectra
+– Discussion & questions
+ </pre>
+</details>
+
 ----
 
 **Contact Information**
