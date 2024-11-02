@@ -17,7 +17,7 @@ $${\color{Event Date}}$$
 This is a  'LIVE COURSE' – the instructor will be delivering lectures and coaching attendees through the accompanying computer practical's via video link, a good internet connection is essential.
 
 ## TIME ZONE
-TIME ZONE – `Central European Standard Time – however all sessions will be recorded and made available allowing attendees from different time zones to follow.
+TIME ZONE – Central European Standard Time – however all sessions will be recorded and made available allowing attendees from different time zones to follow.
 
 Please email alexandre.wadoux@yahoo.fr for full details or to discuss how we can accommodate you.
 
