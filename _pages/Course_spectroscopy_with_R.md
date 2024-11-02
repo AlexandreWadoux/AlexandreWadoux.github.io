@@ -13,7 +13,7 @@ nav_order: 5
 $${\color{Event Date}}$$
 **Tuesday, February 25th, 2025**
 
-![Alt Text](myGIF_course.gif)
+![Alt Text](assets/img/myGIF_course.gif)
 
 ## COURSE FORMAT
 This is a  'LIVE COURSE' – the instructor will be delivering lectures and coaching attendees through the accompanying computer practical's via video link, a good internet connection is essential.
