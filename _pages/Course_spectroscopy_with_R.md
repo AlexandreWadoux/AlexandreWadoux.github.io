@@ -57,10 +57,7 @@ This course is aimed at anyone who wishes to introduce into the analysis of visi
 
 <details>
 <summary><b>TEACHING FORMAT</b></summary>
-	<pre style="background: #d6d2d2;color:black;
-            padding:5px; font-size: 14px;">
 This course will comprise a mixture of taught theory and practical examples. Data and analytical approaches will be presented in a lecture format to introduce key concepts. Statistical analyses will then be presented using R. All R script that the instructor uses during these sessions will be shared with participants, and R script will be presented and explained.
- </pre>
 </details>
 
 <details>
