@@ -15,6 +15,9 @@ This course will be delivered live
 
 ![test4](mycourse.gif)
 
+<img src="{{ site.baseurl }}/assets/img/mycourse.gif">
+
+
 ## COURSE FORMAT
 This is a  'LIVE COURSE' – the instructor will be delivering lectures and coaching attendees through the accompanying computer practical's via video link, a good internet connection is essential.
 
