@@ -107,7 +107,7 @@ Note: This course is limited to 25 participants, so secure your spot today!
 
 [![Pay Now](https://via.placeholder.com/150x50?text=Pay+Now)](https://wise.com/pay/r/fpjUE-I8gcA-WHg)
 
-<img src="{{ site.baseurl }}/assets/img/qrcode.png">
+<img src="./assets/img/qrcode.png">
 
 PLEASE READ – CANCELLATION POLICY
 
