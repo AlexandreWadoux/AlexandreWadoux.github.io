@@ -92,14 +92,18 @@ Classes run from 09:00 to 17:00 CET on Day 3, which will include estimating prop
 
 If you are unsure about course suitability, please get in touch by email to find out more [alexandre.wadoux@yahoo.fr](mailto:alexandre.wadoux@yahoo.fr).
 
-**Note:** This course is limited to 20 participants, so secure your spot today!
+Note: This course is limited to 25 participants, so secure your spot today!
 
-## Enrollment form
+----
+----
+
+## Enrollment form :triangular_flag_on_post:
 
 > Thank you for your interest in this course. To enroll in the course, please fill out the form below to provide your contact details and complete your payment.
 
-**Payment**
-Please make your payment using the button below:
+:heavy_check_mark: **Tickets**: € 415
+
+:heavy_check_mark: **Payment**: Please make your payment using the button below:
 
 [![Pay Now](https://via.placeholder.com/150x50?text=Pay+Now)](https://www.nature.com/articles/s41598-021-85639-y)
 
