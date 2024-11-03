@@ -105,7 +105,7 @@ Note: This course is limited to 25 participants, so secure your spot today!
 
 :heavy_check_mark: **Payment**: Please make your payment using the button below or the QR code
 
-[![Pay Now](https://via.placeholder.com/150x50?text=Pay+Now)](https://wise.com/pay/r/fpjUE-I8gcA-WHg)
+[![Pay Now](https://via.placeholder.com/150x50?text=Pay+Now)](https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/)
 
 PLEASE READ – CANCELLATION POLICY
 
