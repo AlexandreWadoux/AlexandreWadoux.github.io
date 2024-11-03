@@ -107,6 +107,8 @@ Note: This course is limited to 25 participants, so secure your spot today!
 
 [![Pay Now](https://via.placeholder.com/150x50?text=Pay+Now)](https://wise.com/pay/r/fpjUE-I8gcA-WHg)
 
+<img src="{{ site.baseurl }}/assets/img/qrcode.jpg">
+
 PLEASE READ – CANCELLATION POLICY
 
 Cancellations are accepted up to 28 days before the course start date subject to a 25% cancellation fee. Cancellations later than this may be considered, contact [alexandre.wadoux@yahoo.fr](mailto:alexandre.wadoux@yahoo.fr). Failure to attend will result in the full cost of the course being charged. In the unfortunate event that a course is cancelled due to unforeseen circumstances a full refund of the course fees will be credited.
