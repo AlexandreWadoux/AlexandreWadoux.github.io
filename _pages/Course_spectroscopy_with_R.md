@@ -11,7 +11,7 @@ nav_order: 5
 # ONLINE COURSE – **Quantitative analysis of infrared spectroscopy data for soil and plant sciences**
 This course will be delivered live
 
-**Tuesday, February 25th, 2025**
+**Tuesday, September 16, 2025**
 
 <img src="{{ site.baseurl }}/assets/img/mycourse.gif">
 
@@ -67,7 +67,7 @@ A laptop with a working version of R or RStudio is required for this course. Bot
 
 ## COURSE PROGRAMME
 <details>
-<summary><b>Tuesday 25th February, 2025</b></summary>
+<summary><b>Tuesday 16 September, 2025</b></summary>
 
 
 Classes run from 09:00 to 17:00 CET on Day 1, which will cover an introduction to spectral inference in soil and plant sciences, handling spectral data, a practical session on data handling, pre-processing of raw spectra, a practical session on pre-processing, exploratory spectral analysis, and a practical session on exploratory analysis.
@@ -75,14 +75,14 @@ Classes run from 09:00 to 17:00 CET on Day 1, which will cover an introduction t
 </details>
 
 <details>
-<summary><b>Wednesday 26th February, 2025</b></summary>
+<summary><b>Wednesday 17 September, 2025</b></summary>
 
 Classes run from 09:00 to 17:00 CET on Day 2, which will focus on spectral similarity analysis, the detection of outliers, a practical session on outlier detection, selecting samples for laboratory analysis, and a practical session on sample selection.
 
 </details>
 
 <details>
-<summary><b>Thursday 27th February, 2025</b></summary>
+<summary><b>Thursday 18 September, 2025</b></summary>
 Classes run from 09:00 to 17:00 CET on Day 3, which will include estimating properties from spectra, an introduction to multivariate statistical models, a practical session on statistical modeling, validation of predictions, a practical session on validation, and an opportunity to bring your own data or participate in a large exercise estimating properties from raw spectra, followed by a discussion and questions.
 </details>
 
@@ -92,22 +92,29 @@ Classes run from 09:00 to 17:00 CET on Day 3, which will include estimating prop
 
 If you are unsure about course suitability, please get in touch by email to find out more [alexandre.wadoux@yahoo.fr](mailto:alexandre.wadoux@yahoo.fr).
 
-Note: This course is limited to 25 participants, so secure your spot today!
+Note: This course is limited to 20 participants, so secure your spot today!
 
 ----
 ----
 
-## Enrollment form :triangular_flag_on_post:
-
-> Thank you for your interest in this course. To enroll in the course, please fill out the form below to provide your contact details and complete your payment.
-
+## Pre-registration
 :heavy_check_mark: **Tickets**: € 415
 
-:heavy_check_mark: **Payment**: Please make your payment using the button below or the QR code
+Register now -- complete your payment later
 
-[![Pay Now](https://via.placeholder.com/150x50?text=Pay+Now)](https://wise.com/pay/r/bIyNTmUah12O_wg)
+please fill out the form below to provide your contact details or send an email to [alexandre.wadoux@yahoo.fr](mailto:alexandre.wadoux@yahoo.fr).
 
-<img src="{{ site.baseurl }}/assets/img/qrcode.jpg">
+[comment]: <> ## Enrollment form :triangular_flag_on_post:
+
+[comment]: <> > Thank you for your interest in this course. To enroll in the course, please fill out the form below to provide your contact details and complete your payment.
+
+[comment]: <> :heavy_check_mark: **Tickets**: € 415
+
+[comment]: <> :heavy_check_mark: **Payment**: Please make your payment using the button below or the QR code
+
+[comment]: <> [![Pay Now](https://via.placeholder.com/150x50?text=Pay+Now)](https://wise.com/pay/r/bIyNTmUah12O_wg)
+
+[comment]: <> <img src="{{ site.baseurl }}/assets/img/qrcode.jpg">
 
 PLEASE READ – CANCELLATION POLICY
 
