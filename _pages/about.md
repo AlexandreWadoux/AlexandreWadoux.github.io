@@ -10,9 +10,7 @@ profile:
   image: alex_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>LISAH group</p>
-    <p>2 place pierre Viala</p>
-    <p>34090 Montpellier, France</p>
+    <p>France, Italy, Australia</p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
