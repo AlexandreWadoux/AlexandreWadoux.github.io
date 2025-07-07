@@ -100,21 +100,21 @@ Note: This course is limited to 20 participants, so secure your spot today!
 ## Pre-registration
 :heavy_check_mark: **Tickets**: € 415
 
-Register now -- complete your payment later
+Register now 
 
 please fill out the form below to provide your contact details or send an email to [alexandre.wadoux@yahoo.fr](mailto:alexandre.wadoux@yahoo.fr).
 
-[comment]: <> ## Enrollment form :triangular_flag_on_post:
+## Enrollment form :triangular_flag_on_post:
 
-[comment]: <> > Thank you for your interest in this course. To enroll in the course, please fill out the form below to provide your contact details and complete your payment.
+> Thank you for your interest in this course. To enroll in the course, please fill out the form below to provide your contact details and complete your payment.
 
-[comment]: <> :heavy_check_mark: **Tickets**: € 415
+:heavy_check_mark: **Tickets**: € 415
 
-[comment]: <> :heavy_check_mark: **Payment**: Please make your payment using the button below or the QR code
+:heavy_check_mark: **Payment**: Please make your payment using the button below or the QR code
 
-[comment]: <> [![Pay Now](https://via.placeholder.com/150x50?text=Pay+Now)](https://wise.com/pay/r/bIyNTmUah12O_wg)
+[![Pay Now](https://via.placeholder.com/150x50?text=Pay+Now)](https://wise.com/pay/r/S-2h_wzSBv_eh4c)
 
-[comment]: <> <img src="{{ site.baseurl }}/assets/img/qrcode.jpg">
+<img src="{{ site.baseurl }}/assets/img/qrcode.jpg">
 
 PLEASE READ – CANCELLATION POLICY
 
