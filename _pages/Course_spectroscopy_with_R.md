@@ -2,122 +2,273 @@
 layout: contact
 permalink: /Course/
 title: Course
-description: 
+description: Online training in quantitative analysis of infrared spectroscopy data.
 nav: true
 nav_order: 5
 ---
 
-----
-# ONLINE COURSE – **Quantitative analysis of infrared spectroscopy data for soil and plant sciences**
-This course will be delivered live
+<div class="row align-items-center mb-5">
+  <div class="col-md-7">
+    <h1 class="mb-3">Quantitative Analysis of Infrared Spectroscopy Data</h1>
 
-**Tuesday, September 16, 2025**
+    <p class="lead">
+      A live online short course for soil, plant, environmental, and agricultural scientists.
+    </p>
 
-<img src="{{ site.baseurl }}/assets/img/mycourse.gif">
+    <p>
+      Learn how to analyse visible, near-infrared, and mid-infrared spectroscopy data using R, from spectral pre-processing and exploratory analysis to calibration modelling and validation.
+    </p>
 
-## COURSE FORMAT
-This is a  'LIVE COURSE' – the instructor will be delivering lectures and coaching attendees through the accompanying computer practical's via video link, a good internet connection is essential.
+    <p class="mb-4">
+      <strong>Format:</strong> Live online course with recordings available afterwards<br>
+      <strong>Duration:</strong> 3 days, approximately 20 hours<br>
+      <strong>Language:</strong> English<br>
+      <strong>Time zone:</strong> Central European Summer Time (CEST)
+    </p>
 
-## TIME ZONE
-TIME ZONE – Central European Standard Time – however all sessions will be recorded and made available allowing attendees from different time zones to follow.
+    <a class="btn btn-primary btn-lg mr-2" href="#registration">Register now</a>
+    <a class="btn btn-outline-secondary btn-lg" href="#programme">View the programme</a>
+  </div>
 
-Please email [alexandre.wadoux@yahoo.fr](mailto:alexandre.wadoux@yahoo.fr) for full details or to discuss how we can accommodate you.
+  <div class="col-md-5 text-center mt-4 mt-md-0">
+    <img
+      src="{{ site.baseurl }}/assets/img/mycourse.gif"
+      alt="Online course on infrared spectroscopy data analysis"
+      class="img-fluid rounded shadow-sm"
+      style="max-width: 100%;"
+    >
+  </div>
+</div>
 
-## ABOUT THE COURSE
+<div class="card border-0 shadow-sm mb-5">
+  <div class="card-body p-4">
+    <h3 class="mb-3">Course at a glance</h3>
 
-This **3-day short course** is aimed at providing an introduction to the analysis infrared spectroscopy data using the R programming language. Infrared spectroscopy is a high-throughput, non-destructive, and cheap sensing method that has a large range of applications in agricultural, plant and environmental sciences. Theory underpinning the visible, near and mid-infrared reflectance will be discussed, as well as interpretation of the wavelengths corresponding to specific molecular vibrations and the pre-processing of the raw spectra (**day 1**). We will then cover chemometric methods for exploratory spectral analysis with principal component analysis. We will have the opportunity to detect outlier spectra as well as to select the samples for laboratory analysis using the spectral data (**day 2**). Finally, we will introduce methods for building accurate multivariate models. Multivariate models will be explained and tested, including machine learning and conventional statistical algorithms (**day 3**). Sessions will be a blend of interactive demonstrations/practical and lectures, where learners will have the opportunity to ask questions throughout. Prior to the course, attendees will receive R script and datasets and a list of R packages to install.
+    <div class="row">
+      <div class="col-md-4 mb-3 mb-md-0">
+        <strong>Live teaching</strong><br>
+        Lectures, demonstrations, and guided computer practicals delivered by video link.
+      </div>
+
+      <div class="col-md-4 mb-3 mb-md-0">
+        <strong>Hands-on learning</strong><br>
+        Participants receive R scripts, datasets, and installation guidance before the course.
+      </div>
+
+      <div class="col-md-4">
+        <strong>Flexible access</strong><br>
+        All sessions are recorded and made available to registered participants.
+      </div>
+    </div>
+  </div>
+</div>
+
+## About the course
+
+This three-day short course introduces the quantitative analysis of infrared spectroscopy data using the R programming language. Infrared spectroscopy is a rapid, non-destructive, and cost-effective sensing technique with extensive applications in soil, plant, agricultural, and environmental sciences.
+
+The course combines lectures with practical exercises and interactive demonstrations. Participants will work with real spectral data and will have opportunities to ask questions throughout the sessions.
+
+The programme covers:
+
+- the principles of visible, near-infrared, and mid-infrared spectroscopy;
+- interpretation of spectral wavelengths and molecular vibrations;
+- handling and pre-processing raw spectral data;
+- exploratory spectral analysis using principal component analysis;
+- detection of outlier spectra;
+- selection of samples for laboratory analysis;
+- multivariate calibration modelling, including conventional statistical and machine-learning approaches;
+- validation and interpretation of model predictions.
 
 By the end of the course, participants should be able to:
 
-* Select the best pre-processing techniques for their own raw infrared spectral data.
-* Apply data exploration techniques and avoid the common pitfalls in tackling a data analysis of infrared spectral data.
-* Select the optimal sample size and the best sampling design to subset spectral data and send the samples for laboratory analysis.
-* Understand and apply approaches for spectral data outlier detection.
-* Apply statistical multivariate modelling methods to infrared spectroscopy data and validate the model predictions.
+- select appropriate pre-processing methods for their spectral data;
+- explore infrared spectral datasets and identify common analytical issues;
+- identify outlier spectra using appropriate statistical methods;
+- design a sampling strategy for selecting samples for laboratory analysis;
+- develop and validate multivariate prediction models using infrared spectroscopy data;
+- interpret and communicate the performance of spectral calibration models.
 
-<details>
-<summary><b>INTENDED AUDIENCES</b></summary>
-This course is aimed at anyone who wishes to introduce into the analysis of visible, near and mid-infrared spectral data for plant and soil sciences. It is particularly suited for 1) graduate, post-graduate or post-doctoral level researchers who wish to learn how to analyse their own infrared data in R and 2) applied researchers and analysts in the environmental or ecological sector with a role in handling and analysing infrared spectroscopy data. 
-</details>
+## Course format
 
-<details>
-<summary><b>COURSE DETAILS</b></summary>
-The time zone is CET. The duration is three days, encompassing approximately 20 hours. This program is equivalent to 2 ECTs and will be conducted in English.
-</details>
+<div class="card mb-4">
+  <div class="card-body">
+    <h4>Live online delivery</h4>
+    <p class="mb-0">
+      The instructor will deliver lectures and guide participants through computer practicals via video link. A reliable internet connection is essential.
+    </p>
+  </div>
+</div>
 
-<details>
-<summary><b>TEACHING FORMAT</b></summary>
-This course will comprise a mixture of taught theory and practical examples. Data and analytical approaches will be presented in a lecture format to introduce key concepts. Statistical analyses will then be presented using R. All R script that the instructor uses during these sessions will be shared with participants, and R script will be presented and explained.
-</details>
+<div class="card mb-4">
+  <div class="card-body">
+    <h4>Recordings</h4>
+    <p class="mb-0">
+      All sessions will be recorded and made available to participants. This allows attendees from different time zones to follow the course even where live attendance is difficult.
+    </p>
+  </div>
+</div>
 
-<details>
-<summary><b>ASSUMED QUANTITATIVE KNOWLEDGE</b></summary>
-Understanding of basic concept of sensing in the infrared range of the electromagnetic spectrum and prior knowledge of basic statistical techniques (e.g. linear regression).
-</details>
+<div class="card mb-5">
+  <div class="card-body">
+    <h4>Teaching approach</h4>
+    <p class="mb-0">
+      The course combines taught theory, practical examples, and guided R-based analyses. All R scripts used during the sessions will be shared with participants and explained step by step.
+    </p>
+  </div>
+</div>
 
-<details>
-<summary><b>ASSUMED COMPUTER BACKGROUND</b></summary>
-Prior basic experience with performing statistical analyses using R and R Studio will be assumed, but is not a requirement.
-</details>
+## Who should attend?
 
-<details>
-<summary><b>EQUIPMENT AND SOFTWARE REQUIREMENT</b></summary>
-A laptop with a working version of R or RStudio is required for this course. Both R and RStudio are free and open-source software available for PCs, Macs, and Linux computers. You can download R from the R Project website and RStudio from the RStudio website. During the workshop, all necessary R packages will be available for download and installation as needed, and a complete list of required packages will be shared with attendees in advance. While not mandatory, having a working webcam is encouraged to enhance interactivity during live sessions, and we recommend keeping cameras on during Zoom meetings. Additionally, using a large monitor or a second monitor can significantly improve the learning experience. 
-</details>
+This course is suitable for researchers and professionals who wish to analyse visible, near-infrared, or mid-infrared spectral data in R.
 
-## COURSE PROGRAMME
-<details>
-<summary><b>Tuesday 16 September, 2025</b></summary>
+It is particularly relevant for:
 
+- graduate students, doctoral candidates, postdoctoral researchers, and academic staff;
+- soil, plant, environmental, ecological, and agricultural scientists;
+- analysts working with infrared spectroscopy data in research, consulting, or laboratory settings;
+- participants seeking practical experience in spectral data analysis and chemometrics.
 
-Classes run from 09:00 to 17:00 CET on Day 1, which will cover an introduction to spectral inference in soil and plant sciences, handling spectral data, a practical session on data handling, pre-processing of raw spectra, a practical session on pre-processing, exploratory spectral analysis, and a practical session on exploratory analysis.
+## Prerequisites
 
-</details>
+<div class="row mb-5">
+  <div class="col-md-6 mb-3 mb-md-0">
+    <div class="card h-100">
+      <div class="card-body">
+        <h4>Quantitative background</h4>
+        <p class="mb-0">
+          Basic familiarity with infrared sensing and elementary statistical concepts, such as linear regression, is helpful.
+        </p>
+      </div>
+    </div>
+  </div>
 
-<details>
-<summary><b>Wednesday 17 September, 2025</b></summary>
+  <div class="col-md-6">
+    <div class="card h-100">
+      <div class="card-body">
+        <h4>Computing background</h4>
+        <p class="mb-0">
+          Previous experience with R or RStudio is useful but not essential. Guidance will be provided throughout the practical sessions.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
-Classes run from 09:00 to 17:00 CET on Day 2, which will focus on spectral similarity analysis, the detection of outliers, a practical session on outlier detection, selecting samples for laboratory analysis, and a practical session on sample selection.
+## Equipment and software
 
-</details>
+Participants should have access to:
 
-<details>
-<summary><b>Thursday 18 September, 2025</b></summary>
-Classes run from 09:00 to 17:00 CET on Day 3, which will include estimating properties from spectra, an introduction to multivariate statistical models, a practical session on statistical modeling, validation of predictions, a practical session on validation, and an opportunity to bring your own data or participate in a large exercise estimating properties from raw spectra, followed by a discussion and questions.
-</details>
+- a laptop or desktop computer;
+- a stable internet connection;
+- a working installation of R and RStudio;
+- the ability to install the required R packages before the course.
 
-----
+R and RStudio are free, open-source software available for Windows, macOS, and Linux. A complete list of required packages, scripts, and datasets will be provided before the course.
 
-**Contact Information**
+A webcam is not required but is encouraged to support interaction during live sessions. A large monitor, or a second screen, may also improve the practical learning experience.
 
-If you are unsure about course suitability, please get in touch by email to find out more [alexandre.wadoux@yahoo.fr](mailto:alexandre.wadoux@yahoo.fr).
+## Course programme {#programme}
 
-Note: This course is limited to 20 participants, so secure your spot today!
+<div class="card mb-4">
+  <div class="card-body">
+    <h3>Day 1 — Introduction and spectral pre-processing</h3>
+    <p><strong>09:00–17:00 CEST</strong></p>
 
-----
-----
+    <ul class="mb-0">
+      <li>Introduction to spectral inference in soil and plant sciences</li>
+      <li>Handling spectral data in R</li>
+      <li>Pre-processing raw spectra</li>
+      <li>Practical exercises in data handling and pre-processing</li>
+      <li>Exploratory spectral analysis</li>
+      <li>Practical exercises in exploratory analysis</li>
+    </ul>
+  </div>
+</div>
 
-## Pre-registration
-:heavy_check_mark: **Tickets**: € 415
+<div class="card mb-4">
+  <div class="card-body">
+    <h3>Day 2 — Similarity, outliers, and sample selection</h3>
+    <p><strong>09:00–17:00 CEST</strong></p>
 
-Register now 
+    <ul class="mb-0">
+      <li>Spectral similarity analysis</li>
+      <li>Detection of outlier spectra</li>
+      <li>Practical exercises in outlier detection</li>
+      <li>Selecting samples for laboratory analysis</li>
+      <li>Practical exercises in sample selection</li>
+    </ul>
+  </div>
+</div>
 
-please fill out the form below to provide your contact details or send an email to [alexandre.wadoux@yahoo.fr](mailto:alexandre.wadoux@yahoo.fr).
+<div class="card mb-5">
+  <div class="card-body">
+    <h3>Day 3 — Calibration modelling and validation</h3>
+    <p><strong>09:00–17:00 CEST</strong></p>
 
-## Enrollment form :triangular_flag_on_post:
+    <ul class="mb-0">
+      <li>Estimating properties from spectra</li>
+      <li>Introduction to multivariate statistical models</li>
+      <li>Practical exercises in calibration modelling</li>
+      <li>Validation and interpretation of predictions</li>
+      <li>Practical exercises in model validation</li>
+      <li>Bring-your-own-data session or large integrated case study</li>
+      <li>Discussion and questions</li>
+    </ul>
+  </div>
+</div>
 
-> Thank you for your interest in this course. To enroll in the course, please fill out the form below to provide your contact details and complete your payment.
+## Registration {#registration}
 
-:heavy_check_mark: **Tickets**: € 415
+<div class="card border-primary shadow-sm mb-4">
+  <div class="card-body p-4">
+    <h3 class="mb-3">Course fee</h3>
 
-:heavy_check_mark: **Payment**: Please make your payment using the button below or the QR code
+    <p class="display-4 mb-3">€415</p>
 
-[![Pay Now](https://via.placeholder.com/150x50?text=Pay+Now)](https://wise.com/pay/r/S-2h_wzSBv_eh4c)
+    <p>
+      The course is limited to <strong>20 participants</strong>. Registration is confirmed once payment has been received.
+    </p>
 
-<img src="{{ site.baseurl }}/assets/img/qrcode.jpg">
+    <p class="mb-4">
+      To register, please complete the form below or contact
+      <a href="mailto:alexandre.wadoux@yahoo.fr">alexandre.wadoux@yahoo.fr</a>.
+    </p>
 
-PLEASE READ – CANCELLATION POLICY
+    <a
+      class="btn btn-primary btn-lg"
+      href="https://wise.com/pay/r/S-2h_wzSBv_eh4c"
+      target="_blank"
+      rel="noopener"
+    >
+      Pay course fee
+    </a>
+  </div>
+</div>
 
-Cancellations are accepted up to 28 days before the course start date subject to a 25% cancellation fee. Cancellations later than this may be considered, contact [alexandre.wadoux@yahoo.fr](mailto:alexandre.wadoux@yahoo.fr). Failure to attend will result in the full cost of the course being charged. In the unfortunate event that a course is cancelled due to unforeseen circumstances a full refund of the course fees will be credited.
+<div class="text-center mb-5">
+  <p class="mb-3"><strong>You may also scan the QR code to pay.</strong></p>
 
----
+  <img
+    src="{{ site.baseurl }}/assets/img/qrcode.jpg"
+    alt="QR code for course payment"
+    class="img-fluid rounded shadow-sm"
+    style="max-width: 220px;"
+  >
+</div>
+
+## Contact
+
+For questions about course suitability, registration, payment, or accommodation for different time zones, contact:
+
+<a href="mailto:alexandre.wadoux@yahoo.fr">alexandre.wadoux@yahoo.fr</a>
+
+## Cancellation policy
+
+Cancellations made up to 28 days before the course start date are eligible for a refund, less a 25% cancellation fee.
+
+Cancellations made less than 28 days before the course may be considered on a case-by-case basis. Please contact the instructor as soon as possible.
+
+Failure to attend the course without prior cancellation will result in the full course fee being retained.
+
+Should the course be cancelled because of unforeseen circumstances, participants will receive a full refund of the course fee.
