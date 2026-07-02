@@ -8,7 +8,7 @@ nav_order: 5
 ---
 <div class="mb-5">
   <img
-    src="{{ site.baseurl }}/assets/img/Banner_course.png"
+    src="{{ site.baseurl }}/assets/img/Banner_course_with_date.png"
     alt="Quantitative Analysis of Infrared Spectroscopy Data"
     class="img-fluid rounded shadow-sm w-100"
     style="max-width: 100%;"
