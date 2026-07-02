@@ -3,7 +3,7 @@ layout: contact
 permalink: /Course/
 title: Course
 description: Live online course in infrared spectroscopy data analysis with R.
-img: assets/img/course_banner_2026.png
+img: assets/img/Banner_course_with_date.png
 nav: true
 nav_order: 5
 ---
