@@ -1,17 +1,16 @@
+--- 
+layout: contact 
+permalink: /Course/ 
+title: Course 
+description: Online training in quantitative analysis of infrared spectroscopy data. 
+nav: true nav_order: 5 
 ---
-layout: contact
-permalink: /Course/
-title: Course
-description: Online training in quantitative analysis of infrared spectroscopy data.
-nav: true
-nav_order: 5
-------------
 
 <div class="row align-items-center mb-5">
   <div class="col-md-7">
     <h1 class="mb-3">Quantitative Analysis of Infrared Spectroscopy Data</h1>
 
-```
+
 <p class="lead">
   A live online short course for soil, plant, environmental, and agricultural scientists.
 </p>
@@ -30,7 +29,7 @@ nav_order: 5
 
 <a class="btn btn-primary btn-lg mr-2" href="#registration">Register now</a>
 <a class="btn btn-outline-secondary btn-lg" href="#programme">View the programme</a>
-```
+
 
   </div>
 
@@ -48,7 +47,7 @@ nav_order: 5
   <div class="card-body p-4">
     <h3 class="mb-3">Course at a glance</h3>
 
-```
+
 <div class="row">
   <div class="col-md-4 mb-3 mb-md-0">
     <strong>Live teaching</strong><br>
@@ -65,7 +64,7 @@ nav_order: 5
     All sessions are recorded and made available to registered participants.
   </div>
 </div>
-```
+
 
   </div>
 </div>
@@ -185,7 +184,7 @@ A webcam is not required but is encouraged to support interaction during live se
       08:30–12:00 CET (Europe/Paris)</strong>
     </p>
 
-```
+
 <ul class="mb-0">
   <li>Introduction to spectral inference in soil and plant sciences</li>
   <li>Handling spectral data in R</li>
@@ -194,7 +193,7 @@ A webcam is not required but is encouraged to support interaction during live se
   <li>Exploratory spectral analysis</li>
   <li>Practical exercises in exploratory analysis</li>
 </ul>
-```
+
 
   </div>
 </div>
@@ -207,7 +206,7 @@ A webcam is not required but is encouraged to support interaction during live se
       08:30–12:00 CET (Europe/Paris)</strong>
     </p>
 
-```
+
 <ul class="mb-0">
   <li>Spectral similarity analysis</li>
   <li>Detection of outlier spectra</li>
@@ -215,7 +214,7 @@ A webcam is not required but is encouraged to support interaction during live se
   <li>Selecting samples for laboratory analysis</li>
   <li>Practical exercises in sample selection</li>
 </ul>
-```
+
 
   </div>
 </div>
@@ -228,7 +227,7 @@ A webcam is not required but is encouraged to support interaction during live se
       08:30–12:00 CET (Europe/Paris)</strong>
     </p>
 
-```
+
 <ul class="mb-0">
   <li>Estimating properties from spectra</li>
   <li>Introduction to multivariate statistical models</li>
@@ -238,7 +237,7 @@ A webcam is not required but is encouraged to support interaction during live se
   <li>Bring-your-own-data session or large integrated case study</li>
   <li>Discussion and questions</li>
 </ul>
-```
+
 
   </div>
 </div>
@@ -249,7 +248,7 @@ A webcam is not required but is encouraged to support interaction during live se
   <div class="card-body p-4">
     <h3 class="mb-3">Course fee</h3>
 
-```
+
 <p class="display-4 mb-3">€415</p>
 
 <p>
@@ -269,7 +268,7 @@ A webcam is not required but is encouraged to support interaction during live se
 >
   Pay course fee
 </a>
-```
+
 
   </div>
 </div>
