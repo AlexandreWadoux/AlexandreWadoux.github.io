@@ -11,23 +11,27 @@ nav_order: 5
   <div class="col-md-7">
     <h1 class="mb-3">Quantitative Analysis of Infrared Spectroscopy Data</h1>
 
-    <p class="lead">
-      A live online short course for soil, plant, environmental, and agricultural scientists.
-    </p>
+```
+<p class="lead">
+  A live online short course for soil, plant, environmental, and agricultural scientists.
+</p>
 
-    <p>
-      Learn how to analyse visible, near-infrared, and mid-infrared spectroscopy data using R, from spectral pre-processing and exploratory analysis to calibration modelling and validation.
-    </p>
+<p>
+  Learn how to analyse visible, near-infrared, and mid-infrared spectroscopy data using R, from spectral pre-processing and exploratory analysis to calibration modelling and validation.
+</p>
 
-    <p class="mb-4">
-      <strong>Format:</strong> Live online course with recordings available afterwards<br>
-      <strong>Duration:</strong> 3 days, approximately 20 hours<br>
-      <strong>Language:</strong> English<br>
-      <strong>Time zone:</strong> Central European Summer Time (CEST)
-    </p>
+<p class="mb-4">
+  <strong>Format:</strong> Live online course with recordings available afterwards<br>
+  <strong>Duration:</strong> 6 live sessions of 3.5 hours each, approximately 21 hours in total<br>
+  <strong>Dates:</strong> 30 November–2 December and 7–9 December 2026<br>
+  <strong>Time:</strong> 08:30–12:00 Central European Time (CET; Europe/Paris)<br>
+  <strong>Language:</strong> English
+</p>
 
-    <a class="btn btn-primary btn-lg mr-2" href="#registration">Register now</a>
-    <a class="btn btn-outline-secondary btn-lg" href="#programme">View the programme</a>
+<a class="btn btn-primary btn-lg mr-2" href="#registration">Register now</a>
+<a class="btn btn-outline-secondary btn-lg" href="#programme">View the programme</a>
+```
+
   </div>
 
   <div class="col-md-5 text-center mt-4 mt-md-0">
@@ -39,6 +43,7 @@ nav_order: 5
     >
   </div>
 </div>
+
 
 <div class="card border-0 shadow-sm mb-5">
   <div class="card-body p-4">
@@ -65,7 +70,7 @@ nav_order: 5
 
 ## About the course
 
-This three-day short course introduces the quantitative analysis of infrared spectroscopy data using the R programming language. Infrared spectroscopy is a rapid, non-destructive, and cost-effective sensing technique with extensive applications in soil, plant, agricultural, and environmental sciences.
+This six-sessions (approx. 3 full days) short course introduces the quantitative analysis of infrared spectroscopy data using the R programming language. Infrared spectroscopy is a rapid, non-destructive, and cost-effective sensing technique with extensive applications in soil, plant, agricultural, and environmental sciences.
 
 The course combines lectures with practical exercises and interactive demonstrations. Participants will work with real spectral data and will have opportunities to ask questions throughout the sessions.
 
@@ -172,7 +177,7 @@ A webcam is not required but is encouraged to support interaction during live se
 
 <div class="card mb-4">
   <div class="card-body">
-    <h3>Day 1 — Introduction and spectral pre-processing</h3>
+    <h3>Days 1 and 2 (7 hours) — Introduction and spectral pre-processing</h3>
     <p><strong>09:00–17:00 CEST</strong></p>
 
     <ul class="mb-0">
@@ -188,7 +193,7 @@ A webcam is not required but is encouraged to support interaction during live se
 
 <div class="card mb-4">
   <div class="card-body">
-    <h3>Day 2 — Similarity, outliers, and sample selection</h3>
+    <h3>Days 3 and 4 (7 hours) — Similarity, outliers, and sample selection</h3>
     <p><strong>09:00–17:00 CEST</strong></p>
 
     <ul class="mb-0">
@@ -203,7 +208,7 @@ A webcam is not required but is encouraged to support interaction during live se
 
 <div class="card mb-5">
   <div class="card-body">
-    <h3>Day 3 — Calibration modelling and validation</h3>
+    <h3>Days 5 and 6 (7 hours) — Calibration modelling and validation</h3>
     <p><strong>09:00–17:00 CEST</strong></p>
 
     <ul class="mb-0">
