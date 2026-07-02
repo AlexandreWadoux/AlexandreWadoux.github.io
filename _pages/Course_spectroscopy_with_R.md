@@ -258,12 +258,6 @@ A webcam is not required but is encouraged to support interaction during live se
   >
 </div>
 
-## Contact
-
-For questions about course suitability, registration, payment, or accommodation for different time zones, contact:
-
-<a href="mailto:alexandre.wadoux@yahoo.fr">alexandre.wadoux@yahoo.fr</a>
-
 ## Cancellation policy
 
 Cancellations made up to 28 days before the course start date are eligible for a refund, less a 25% cancellation fee.
@@ -273,3 +267,9 @@ Cancellations made less than 28 days before the course may be considered on a ca
 Failure to attend the course without prior cancellation will result in the full course fee being retained.
 
 Should the course be cancelled because of unforeseen circumstances, participants will receive a full refund of the course fee.
+
+## Contact
+
+For questions about course suitability, registration, payment, or accommodation for different time zones, contact:
+
+<a href="mailto:alexandre.wadoux@yahoo.fr">alexandre.wadoux@yahoo.fr</a>
