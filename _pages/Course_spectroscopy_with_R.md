@@ -1,5 +1,4 @@
 ---
-
 layout: contact
 permalink: /Course/
 title: Course
