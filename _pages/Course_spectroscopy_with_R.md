@@ -6,7 +6,7 @@ description: Online training in quantitative analysis of infrared spectroscopy d
 nav: true
 nav_order: 5
 ---
-<div class="mb-5">
+<div class="mb-5"> 
   <img
     src="{{ site.baseurl }}/assets/img/Banner_course_with_date.png"
     alt="Quantitative Analysis of Infrared Spectroscopy Data"
