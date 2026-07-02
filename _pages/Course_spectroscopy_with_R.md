@@ -2,7 +2,8 @@
 layout: contact
 permalink: /Course/
 title: Course
-description: Online training in quantitative analysis of infrared spectroscopy data.
+description: Live online course in infrared spectroscopy data analysis with R.
+img: assets/img/course_banner_2026.png
 nav: true
 nav_order: 5
 ---
