@@ -1,6 +1,16 @@
     <!-- Metadata, OpenGraph and Schema.org -->
     {% include metadata.html %}
 
+{% if page.permalink == '/Course/' %}
+  <meta property="og:title" content="Quantitative Analysis of Infrared Spectroscopy Data with R">
+  <meta property="og:description" content="Live online course in visible, near-infrared, and mid-infrared spectroscopy data analysis using R.">
+  <meta property="og:image" content="https://alexandrewadoux.github.io/assets/img/Banner_course_with_date.png">
+  <meta property="og:image:secure_url" content="https://alexandrewadoux.github.io/assets/img/Banner_course_with_date.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://alexandrewadoux.github.io/Course/">
+{% endif %}
+
     <!-- Bootstrap & MDB -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@{{ site.bootstrap.version }}/dist/css/bootstrap.min.css" rel="stylesheet" integrity="{{ site.bootstrap.integrity.css }}" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@{{ site.mdb.version }}/css/mdb.min.css" integrity="{{ site.mdb.integrity.css }}" crossorigin="anonymous" />
