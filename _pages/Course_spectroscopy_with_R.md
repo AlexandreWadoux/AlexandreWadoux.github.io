@@ -178,7 +178,7 @@ A webcam is not required but is encouraged to support interaction during live se
 <div class="card mb-4">
   <div class="card-body">
     <h3>Days 1 and 2 (7 hours) — Introduction and spectral pre-processing</h3>
-    <p><strong>09:00–17:00 CEST</strong></p>
+    <p><strong>08:30–12:00 CEST</strong></p>
 
     <ul class="mb-0">
       <li>Introduction to spectral inference in soil and plant sciences</li>
@@ -194,7 +194,7 @@ A webcam is not required but is encouraged to support interaction during live se
 <div class="card mb-4">
   <div class="card-body">
     <h3>Days 3 and 4 (7 hours) — Similarity, outliers, and sample selection</h3>
-    <p><strong>09:00–17:00 CEST</strong></p>
+    <p><strong>08:30–12:00 CEST</strong></p>
 
     <ul class="mb-0">
       <li>Spectral similarity analysis</li>
@@ -209,7 +209,7 @@ A webcam is not required but is encouraged to support interaction during live se
 <div class="card mb-5">
   <div class="card-body">
     <h3>Days 5 and 6 (7 hours) — Calibration modelling and validation</h3>
-    <p><strong>09:00–17:00 CEST</strong></p>
+    <p><strong>08:30–12:00 CEST</strong></p>
 
     <ul class="mb-0">
       <li>Estimating properties from spectra</li>
