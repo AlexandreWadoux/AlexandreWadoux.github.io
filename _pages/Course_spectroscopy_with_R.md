@@ -33,7 +33,7 @@ nav_order: 5
 
   <div class="col-md-5 text-center mt-4 mt-md-0">
     <img
-      src="{{ site.baseurl }}/assets/img/mycourse.gif"
+      src="{{ site.baseurl }}/assets/img/Banner_course.png"
       alt="Online course on infrared spectroscopy data analysis"
       class="img-fluid rounded shadow-sm"
       style="max-width: 100%;"
