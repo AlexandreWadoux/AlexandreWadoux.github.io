@@ -245,6 +245,7 @@ A webcam is not required but is encouraged to support interaction during live se
   </div>
 </div>
 
+<!--
 <div class="text-center mb-5">
   <p class="mb-3"><strong>You may also scan the QR code to pay.</strong></p>
 
@@ -255,6 +256,7 @@ A webcam is not required but is encouraged to support interaction during live se
     style="max-width: 220px;"
   >
 </div>
+-->
 
 ## Cancellation policy
 
