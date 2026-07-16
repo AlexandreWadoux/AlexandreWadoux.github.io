@@ -236,7 +236,7 @@ A webcam is not required but is encouraged to support interaction during live se
 
     <a
       class="btn btn-primary btn-lg"
-      href="https://wise.com/pay/r/S-2h_wzSBv_eh4c"
+      href="https://buy.stripe.com/9B67sLcnl7Zs2QZfKo9oc00"
       target="_blank"
       rel="noopener"
     >
