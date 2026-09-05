@@ -31,7 +31,8 @@ nav_order: 5
       <strong>Duration:</strong> 6 live sessions of 3.5 hours each, approximately 21 hours in total<br>
       <strong>Dates:</strong> 30 November–2 December and 7–9 December 2026<br>
       <strong>Time:</strong> 08:30–12:00 Central European Time (CET; Europe/Paris)<br>
-      <strong>Language:</strong> English
+      <strong>Language:</strong> English<br>
+      <strong>Course fee:</strong> €415, including live sessions, recordings, R scripts, and datasets
     </p>
 
     <a class="btn btn-primary btn-lg mr-2" href="#registration">Register now</a>
@@ -87,6 +88,22 @@ By the end of the course, participants should be able to:
 - design a sampling strategy for selecting samples for laboratory analysis;
 - develop and validate multivariate prediction models using infrared spectroscopy data;
 - interpret and communicate the performance of spectral calibration models.
+
+## About the instructor
+
+Dr Alexandre Wadoux is a Lecturer in Soil Science at James Cook University, Australia. His research spans infrared soil spectroscopy, chemometrics, digital soil mapping, and statistical learning, with a particular focus on model validation and uncertainty. He holds a PhD in applied geostatistics from Wageningen University and previously worked at INRAE as a Marie Skłodowska-Curie Fellow and at the University of Sydney. In this course, he guides participants through practical R workflows for analysing spectra and developing and evaluating prediction models.
+
+[Read more about Alexandre's background]({{ site.baseurl }}/CV/).
+
+## What previous participants say
+
+> “The course gave me a much clearer understanding of soil spectral analysis in R, with practical scripts and examples I could adapt to my own research.”
+>
+> — Participant, SPEC03
+
+> “A useful combination of theory and practical analysis, with clear explanations of preprocessing, calibration, validation, and how to interpret model results.”
+>
+> — PhD student, SPEC04
 
 ## Course format
 
@@ -224,6 +241,10 @@ A webcam is not required but is encouraged to support interaction during live se
     <h3 class="mb-3">Course fee</h3>
 
     <p class="display-4 mb-3">€415</p>
+
+    <p>
+      Includes all six live sessions (approximately 21 hours), session recordings, R scripts, datasets, and software installation guidance.
+    </p>
 
     <p>
       The course is limited to <strong>20 participants</strong>. Registration is confirmed once payment has been received.
