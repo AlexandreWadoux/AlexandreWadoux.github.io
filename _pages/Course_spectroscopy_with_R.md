@@ -35,8 +35,9 @@ nav_order: 5
       <strong>Course fee:</strong> €415, including live sessions, recordings, R scripts, and datasets
     </p>
 
-    <a class="btn btn-primary btn-lg mr-2" href="#registration">Register now</a>
-    <a class="btn btn-outline-secondary btn-lg" href="#programme">View the programme</a>
+    <a class="btn btn-primary btn-lg mr-2 mb-2" href="https://buy.stripe.com/9B67sLcnl7Zs2QZfKo9oc00" target="_blank" rel="noopener">Register and pay — €415</a>
+    <a class="btn btn-outline-primary btn-lg mb-2" href="mailto:alexandre.wadoux@yahoo.fr?subject=Institutional%20invoice%20request%20%E2%80%94%20Spectroscopy%20with%20R%20course%202026&amp;body=Hello%20Alexandre%2C%0D%0A%0D%0AI%20would%20like%20to%20request%20an%20institutional%20invoice%20for%20the%20Quantitative%20Analysis%20of%20Infrared%20Spectroscopy%20Data%20with%20R%20course%20(30%20November%E2%80%932%20December%20and%207%E2%80%939%20December%202026%3B%20%E2%82%AC415%20per%20participant).%0D%0A%0D%0AParticipant%20name(s)%3A%0D%0AParticipant%20email%20address(es)%3A%0D%0AInstitution%20%2F%20legal%20billing%20name%3A%0D%0ABilling%20address%20and%20country%3A%0D%0ABilling%20contact%20email%3A%0D%0ATax%20%2F%20VAT%20number%20(if%20applicable)%3A%0D%0APurchase%20order%20reference%20(if%20required)%3A%0D%0A%0D%0AThank%20you.">Request an institutional invoice</a>
+    <p class="mt-2 mb-0"><a href="#programme">View the programme</a></p>
   </div>
 </div>
 
@@ -251,18 +252,18 @@ A webcam is not required but is encouraged to support interaction during live se
     </p>
 
     <p class="mb-4">
-      To register, please complete the form below or contact
-      <a href="mailto:alexandre.wadoux@yahoo.fr">alexandre.wadoux@yahoo.fr</a>.
+      Register and pay online, or request an invoice if your university, laboratory, or employer will pay the course fee.
     </p>
 
-    <a
-      class="btn btn-primary btn-lg"
-      href="https://buy.stripe.com/9B67sLcnl7Zs2QZfKo9oc00"
-      target="_blank"
-      rel="noopener"
-    >
-      Pay course fee
-    </a>
+    <a class="btn btn-primary btn-lg mr-2 mb-2" href="https://buy.stripe.com/9B67sLcnl7Zs2QZfKo9oc00" target="_blank" rel="noopener">Register and pay — €415</a>
+    <a class="btn btn-outline-primary btn-lg mb-2" href="mailto:alexandre.wadoux@yahoo.fr?subject=Institutional%20invoice%20request%20%E2%80%94%20Spectroscopy%20with%20R%20course%202026&amp;body=Hello%20Alexandre%2C%0D%0A%0D%0AI%20would%20like%20to%20request%20an%20institutional%20invoice%20for%20the%20Quantitative%20Analysis%20of%20Infrared%20Spectroscopy%20Data%20with%20R%20course%20(30%20November%E2%80%932%20December%20and%207%E2%80%939%20December%202026%3B%20%E2%82%AC415%20per%20participant).%0D%0A%0D%0AParticipant%20name(s)%3A%0D%0AParticipant%20email%20address(es)%3A%0D%0AInstitution%20%2F%20legal%20billing%20name%3A%0D%0ABilling%20address%20and%20country%3A%0D%0ABilling%20contact%20email%3A%0D%0ATax%20%2F%20VAT%20number%20(if%20applicable)%3A%0D%0APurchase%20order%20reference%20(if%20required)%3A%0D%0A%0D%0AThank%20you.">Request an institutional invoice</a>
+
+    <p class="small mt-3 mb-0">
+      The invoice button opens a pre-filled email to
+      <a href="mailto:alexandre.wadoux@yahoo.fr">alexandre.wadoux@yahoo.fr</a>.
+      Please include the participant details, institution billing name and address, and any required purchase order reference.
+      If your email application does not open, send these details directly to the address above.
+    </p>
   </div>
 </div>
 
