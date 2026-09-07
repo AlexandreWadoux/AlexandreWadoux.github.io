@@ -13,6 +13,7 @@
 ##  3) Install any packages required for the course that are missing
 ##  4) Check that all required packages are installed
 ##  5) Check that all required packages can be loaded
+##  6) Offer to download the course files from the public Google Drive folder
 
 
 #### Course requirements ####
@@ -30,8 +31,11 @@ vs_packages_to_install <- c(
   "patchwork",
   "dplyr",
   "cvTools",
-  "ranger"
+  "ranger",
+  "googledrive"
 )
+
+course_files_url <- "https://drive.google.com/drive/folders/19DI1yxz0HPwReAcifxGfqtmguUihXxKW?usp=sharing"
 
 
 #### Welcome message ####
@@ -183,7 +187,7 @@ load_status_table <- data.frame(
 print(load_status_table)
 
 
-#### Final message ####
+#### Final package-check message ####
 
 if (all(load_status)) {
 
@@ -209,6 +213,132 @@ if (all(load_status)) {
     "Please keep a copy or screenshot of the messages shown above and\n",
     "contact the course instructor before the course.\n",
     "=================================================\n\n",
+    sep = ""
+  )
+}
+
+
+#### 6. Optional download of course files ####
+
+# Download all files from the public Google Drive folder, including subfolders.
+download_course_folder <- function(folder_url, destination) {
+
+  googledrive::drive_deauth()
+  dir.create(destination, recursive = TRUE, showWarnings = FALSE)
+
+  download_one_folder <- function(folder, local_folder) {
+
+    items <- googledrive::drive_ls(googledrive::as_id(folder))
+
+    if (nrow(items) == 0) {
+      return(invisible(NULL))
+    }
+
+    items <- googledrive::drive_reveal(items, "mime_type")
+
+    for (i in seq_len(nrow(items))) {
+
+      item_name <- items$name[i]
+      item_id <- items$id[i]
+      item_type <- items$mime_type[i]
+
+      if (identical(item_type, "application/vnd.google-apps.folder")) {
+
+        new_local_folder <- file.path(local_folder, item_name)
+        dir.create(new_local_folder, recursive = TRUE, showWarnings = FALSE)
+        download_one_folder(item_id, new_local_folder)
+
+      } else {
+
+        cat("Downloading: ", item_name, "\n", sep = "")
+
+        googledrive::drive_download(
+          googledrive::as_id(item_id),
+          path = file.path(local_folder, item_name),
+          overwrite = TRUE
+        )
+      }
+    }
+  }
+
+  download_one_folder(folder_url, destination)
+  invisible(destination)
+}
+
+if (interactive() && requireNamespace("googledrive", quietly = TRUE)) {
+
+  answer <- trimws(tolower(readline(
+    paste0(
+      "Would you like to download the Pedometrics 2026 course files now? ",
+      "[y/N]: "
+    )
+  )))
+
+  if (answer %in% c("y", "yes")) {
+
+    default_destination <- file.path(path.expand("~"), "Pedometrics2026_course_files")
+
+    destination <- readline(
+      paste0(
+        "Local folder for the course files [",
+        default_destination,
+        "]: "
+      )
+    )
+
+    destination <- trimws(destination)
+
+    if (!nzchar(destination)) {
+      destination <- default_destination
+    }
+
+    cat("\nDownloading course files to:\n", normalizePath(destination, winslash = "/", mustWork = FALSE), "\n\n", sep = "")
+
+    download_ok <- tryCatch(
+      {
+        download_course_folder(course_files_url, destination)
+        TRUE
+      },
+      error = function(e) {
+        cat(
+          "\nAutomatic download was not successful.\n",
+          "Reason: ", conditionMessage(e), "\n\n",
+          "The course files can still be downloaded manually from:\n",
+          course_files_url, "\n",
+          sep = ""
+        )
+        FALSE
+      }
+    )
+
+    if (download_ok) {
+      cat(
+        "\n=================================================\n",
+        "Course files downloaded successfully.\n",
+        "Please keep this folder on your computer for the practical sessions:\n",
+        normalizePath(destination, winslash = "/", mustWork = FALSE), "\n",
+        "=================================================\n\n",
+        sep = ""
+      )
+    } else {
+      try(browseURL(course_files_url), silent = TRUE)
+    }
+
+  } else {
+
+    cat(
+      "\nPlease download the course files before the course and save them in a local folder:\n",
+      course_files_url, "\n\n",
+      sep = ""
+    )
+  }
+
+} else {
+
+  cat(
+    "\nCourse files must also be downloaded before the course from:\n",
+    course_files_url, "\n",
+    "Save them in a local folder on your computer.\n\n",
     sep = ""
   )
 }
