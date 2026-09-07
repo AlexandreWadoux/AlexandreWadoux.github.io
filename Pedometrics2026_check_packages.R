@@ -1,6 +1,6 @@
 ## Pedometrics 2026 – check required R packages
 ## Short training: Soil Organic Carbon Stock Change Quantification
-## Alexandre M. J.-C. Wadoux
+## Alexandre M. J.-C. Wadoux and Gerard B.M. Heuvelink
 ## Pedometrics 2026
 ##
 ## This script can be called directly from the R console with:
