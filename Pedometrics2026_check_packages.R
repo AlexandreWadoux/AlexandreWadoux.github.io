@@ -265,6 +265,24 @@ download_course_folder <- function(folder_url, destination) {
   invisible(destination)
 }
 
+# Use a predictable local destination and avoid asking students to type a Windows path.
+get_course_destination <- function() {
+
+  if (.Platform$OS.type == "windows") {
+    documents <- file.path(Sys.getenv("USERPROFILE"), "Documents")
+    if (!dir.exists(documents)) {
+      documents <- path.expand("~")
+    }
+  } else {
+    documents <- path.expand("~/Documents")
+    if (!dir.exists(documents)) {
+      documents <- path.expand("~")
+    }
+  }
+
+  file.path(documents, "Pedometrics2026_course_files")
+}
+
 if (interactive() && requireNamespace("googledrive", quietly = TRUE)) {
 
   answer <- trimws(tolower(readline(
@@ -276,23 +294,15 @@ if (interactive() && requireNamespace("googledrive", quietly = TRUE)) {
 
   if (answer %in% c("y", "yes")) {
 
-    default_destination <- file.path(path.expand("~"), "Pedometrics2026_course_files")
+    destination <- get_course_destination()
+    dir.create(destination, recursive = TRUE, showWarnings = FALSE)
+    destination <- normalizePath(destination, winslash = "/", mustWork = TRUE)
 
-    destination <- readline(
-      paste0(
-        "Local folder for the course files [",
-        default_destination,
-        "]: "
-      )
+    cat(
+      "\nThe course files will be downloaded to:\n",
+      destination, "\n\n",
+      sep = ""
     )
-
-    destination <- trimws(destination)
-
-    if (!nzchar(destination)) {
-      destination <- default_destination
-    }
-
-    cat("\nDownloading course files to:\n", normalizePath(destination, winslash = "/", mustWork = FALSE), "\n\n", sep = "")
 
     download_ok <- tryCatch(
       {
@@ -315,8 +325,8 @@ if (interactive() && requireNamespace("googledrive", quietly = TRUE)) {
       cat(
         "\n=================================================\n",
         "Course files downloaded successfully.\n",
-        "Please keep this folder on your computer for the practical sessions:\n",
-        normalizePath(destination, winslash = "/", mustWork = FALSE), "\n",
+        "They are stored in:\n",
+        destination, "\n",
         "=================================================\n\n",
         sep = ""
       )
