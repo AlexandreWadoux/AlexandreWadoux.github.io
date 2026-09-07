@@ -265,7 +265,7 @@ download_course_folder <- function(folder_url, destination) {
   invisible(destination)
 }
 
-# Use a predictable local destination and avoid asking students to type a Windows path.
+# Use a predictable local destination. Students are not asked to enter a path.
 get_course_destination <- function() {
 
   if (.Platform$OS.type == "windows") {
@@ -299,7 +299,7 @@ if (interactive() && requireNamespace("googledrive", quietly = TRUE)) {
     destination <- normalizePath(destination, winslash = "/", mustWork = TRUE)
 
     cat(
-      "\nThe course files will be downloaded to:\n",
+      "\nDownloading course files to:\n",
       destination, "\n\n",
       sep = ""
     )
