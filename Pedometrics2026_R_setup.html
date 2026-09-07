@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>R and RStudio setup for Pedometrics 2026</title>
+<style>
+  :root {
+    --text: #202124;
+    --muted: #5f6368;
+    --border: #e0e3e7;
+    --panel: #f7f9fb;
+    --accent: #245b75;
+  }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    color: var(--text);
+    background: white;
+    line-height: 1.6;
+  }
+  main {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 44px 24px 64px;
+  }
+  h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 0.25rem;
+  }
+  h2 {
+    margin-top: 2.2rem;
+    padding-bottom: .35rem;
+    border-bottom: 1px solid var(--border);
+    font-size: 1.35rem;
+  }
+  h3 { margin-top: 1.4rem; }
+  p, li { font-size: 1rem; }
+  a { color: var(--accent); }
+  code {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    background: #f1f3f5;
+    padding: .12em .3em;
+    border-radius: 4px;
+  }
+  pre {
+    background: #111827;
+    color: #f9fafb;
+    padding: 16px;
+    overflow-x: auto;
+    border-radius: 8px;
+    line-height: 1.45;
+  }
+  pre code {
+    background: none;
+    color: inherit;
+    padding: 0;
+  }
+  ul { padding-left: 1.3rem; }
+  @media (max-width: 600px) {
+    main { padding: 28px 18px 48px; }
+    h1 { font-size: 1.65rem; }
+  }
+</style>
+</head>
+<body>
+<main>
+<h1>R and RStudio setup for Pedometrics 2026</h1>
+<h2>Short training: Soil Organic Carbon Stock Change Quantification</h2>
+<p><strong>Instructors:</strong> Alexandre M. J.-C. Wadoux and Gerard B.M. Heuvelink</p>
+<p>Please complete the steps below <strong>before the course</strong>. Installing and updating the required R packages usually takes around 10–15 minutes, but it can take considerably longer on some computers.</p>
+<h2>1. Install or update R</h2>
+<p>The practical exercises use <strong>R</strong> for data analysis and modelling. We recommend installing the latest stable version of R.</p>
+<h3>Windows</h3>
+<p>1. Go to <a href="https://cloud.r-project.org/">https://cloud.r-project.org/</a>.</p>
+<p>2. Select <strong>Download R for Windows</strong>.</p>
+<p>3. Select <strong>base</strong> (or <strong>install R for the first time</strong>).</p>
+<p>4. Download the latest Windows installer.</p>
+<p>5. Run the installer and keep the default options unless you have a specific reason to change them.</p>
+<h3>macOS</h3>
+<p>1. Go to <a href="https://cloud.r-project.org/">https://cloud.r-project.org/</a>.</p>
+<p>2. Select <strong>Download R for macOS</strong>.</p>
+<p>3. Download the installer appropriate for your version of macOS and processor.</p>
+<p>4. Run the installer and follow the default installation steps.</p>
+<p>The course setup script requires <strong>R 4.3.0 or newer</strong>. Using the latest stable version is recommended.</p>
+<h2>2. Install RStudio Desktop</h2>
+<p>RStudio is the interface that we will use to write and run R code.</p>
+<p>1. Go to <a href="https://posit.co/download/rstudio-desktop/">https://posit.co/download/rstudio-desktop/</a>.</p>
+<p>2. Download the free version of <strong>RStudio Desktop</strong> for your operating system.</p>
+<p>3. Install RStudio using the default options.</p>
+<p>4. Open RStudio after installation.</p>
+<p>R must be installed <strong>before</strong> RStudio. If you update R but RStudio still opens an older R version, restart RStudio. On Windows, you can also check <strong>Tools &gt; Global Options &gt; General &gt; R version</strong> and select the most recent installation.</p>
+<h2>3. Install the packages required for the course</h2>
+<p>The course uses several R packages for spatial data processing, geostatistics, visualisation, regression kriging, random forests, and sampling exercises. A setup script has been prepared to check your R installation and install everything required automatically.</p>
+<p>Open <strong>RStudio</strong> and locate the <strong>Console</strong> pane, usually in the lower-left part of the RStudio window. Copy and paste the following line into the Console:</p>
+<pre><code>source("https://raw.githubusercontent.com/AlexandreWadoux/AlexandreWadoux.github.io/master/Pedometrics2026_check_packages.R")</code></pre>
+<p>Press <strong>Enter</strong>.</p>
+<p>The script will:</p>
+<p>1. check that your version of R is sufficiently recent;</p>
+<p>2. attempt to update existing R packages;</p>
+<p>3. install any course packages that are missing;</p>
+<p>4. verify that all required packages are installed; and</p>
+<p>5. check that the packages can be loaded successfully.</p>
+<p>The required packages currently include <code>terra</code>, <code>sf</code>, <code>gstat</code>, <code>stars</code>, <code>ggplot2</code>, <code>patchwork</code>, <code>dplyr</code>, <code>cvTools</code>, and <code>ranger</code>.</p>
+<h2>4. What to expect</h2>
+<p>During installation you may see warnings or messages from R. Many warnings are harmless, particularly while packages and their dependencies are being installed or updated.</p>
+<p>If everything is ready, the script will finish with a message similar to:</p>
+<pre><code>Everything is ready.
+All R packages required for the Pedometrics 2026 short training
+"Soil Organic Carbon Stock Change Quantification" are installed
+and can be loaded successfully.</code></pre>
+<p>If the script reports that your R version is too old, install the latest R version, restart RStudio, and run the <code>source(...)</code> command again.</p>
+<p>If one or more packages cannot be installed or loaded, please keep a <strong>screenshot of the complete Console output</strong> and contact the course instructors before the practical session.</p>
+<h2>5. Final check before the course</h2>
+<p>You are ready for the practical exercises when:</p>
+<ul>
+<li>R 4.3.0 or newer is installed;</li>
+<li>RStudio opens normally;</li>
+<li>the setup script completes without missing packages; and</li>
+<li>the final package-loading check reports success.</li>
+</ul>
+<p>You do not need to learn basic R syntax before attending the course. The purpose of this setup is simply to ensure that your computer is ready to run the practical exercises.</p>
+</main>
+</body>
+</html>
