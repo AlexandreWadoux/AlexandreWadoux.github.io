@@ -58,6 +58,13 @@
     padding: 0;
   }
   ul { padding-left: 1.3rem; }
+  .notice {
+    background: var(--panel);
+    border-left: 4px solid var(--accent);
+    padding: 14px 18px;
+    margin: 1.2rem 0;
+    border-radius: 4px;
+  }
   @media (max-width: 600px) {
     main { padding: 28px 18px 48px; }
     h1 { font-size: 1.65rem; }
@@ -70,6 +77,11 @@
 <h2>Short training: Soil Organic Carbon Stock Change Quantification</h2>
 <p><strong>Instructors:</strong> Alexandre M. J.-C. Wadoux and Gerard B.M. Heuvelink</p>
 <p>Please complete the steps below <strong>before the course</strong>. Installing and updating the required R packages usually takes around 10–15 minutes, but it can take considerably longer on some computers.</p>
+
+<div class="notice">
+<strong>Important:</strong> the practical course files must also be downloaded before the course and saved in a <strong>local folder on your computer</strong>. The files are available from the Google Drive folder linked in Section 4 below.
+</div>
+
 <h2>1. Install or update R</h2>
 <p>The practical exercises use <strong>R</strong> for data analysis and modelling. We recommend installing the latest stable version of R.</p>
 <h3>Windows</h3>
@@ -84,6 +96,7 @@
 <p>3. Download the installer appropriate for your version of macOS and processor.</p>
 <p>4. Run the installer and follow the default installation steps.</p>
 <p>The course setup script requires <strong>R 4.3.0 or newer</strong>. Using the latest stable version is recommended.</p>
+
 <h2>2. Install RStudio Desktop</h2>
 <p>RStudio is the interface that we will use to write and run R code.</p>
 <p>1. Go to <a href="https://posit.co/download/rstudio-desktop/">https://posit.co/download/rstudio-desktop/</a>.</p>
@@ -91,8 +104,9 @@
 <p>3. Install RStudio using the default options.</p>
 <p>4. Open RStudio after installation.</p>
 <p>R must be installed <strong>before</strong> RStudio. If you update R but RStudio still opens an older R version, restart RStudio. On Windows, you can also check <strong>Tools &gt; Global Options &gt; General &gt; R version</strong> and select the most recent installation.</p>
+
 <h2>3. Install the packages required for the course</h2>
-<p>The course uses several R packages for spatial data processing, geostatistics, visualisation, regression kriging, random forests, and sampling exercises. A setup script has been prepared to check your R installation and install everything required automatically.</p>
+<p>The course uses several R packages for spatial data processing, geostatistics, visualisation, regression kriging, random forests, sampling exercises, and downloading the public course files. A setup script has been prepared to check your R installation and install everything required automatically.</p>
 <p>Open <strong>RStudio</strong> and locate the <strong>Console</strong> pane, usually in the lower-left part of the RStudio window. Copy and paste the following line into the Console:</p>
 <pre><code>source("https://raw.githubusercontent.com/AlexandreWadoux/AlexandreWadoux.github.io/master/Pedometrics2026_check_packages.R")</code></pre>
 <p>Press <strong>Enter</strong>.</p>
@@ -100,25 +114,37 @@
 <p>1. check that your version of R is sufficiently recent;</p>
 <p>2. attempt to update existing R packages;</p>
 <p>3. install any course packages that are missing;</p>
-<p>4. verify that all required packages are installed; and</p>
-<p>5. check that the packages can be loaded successfully.</p>
-<p>The required packages currently include <code>terra</code>, <code>sf</code>, <code>gstat</code>, <code>stars</code>, <code>ggplot2</code>, <code>patchwork</code>, <code>dplyr</code>, <code>cvTools</code>, and <code>ranger</code>.</p>
-<h2>4. What to expect</h2>
+<p>4. verify that all required packages are installed;</p>
+<p>5. check that the packages can be loaded successfully; and</p>
+<p>6. ask whether you would like to download the course files automatically.</p>
+
+<h2>4. Download the course files before the course</h2>
+<p>The practical files are available here:</p>
+<p><a href="https://drive.google.com/drive/folders/19DI1yxz0HPwReAcifxGfqtmguUihXxKW?usp=sharing"><strong>Download the Pedometrics 2026 course files from Google Drive</strong></a></p>
+<p>Please download the contents <strong>before the course</strong> and save them in a local folder on your computer rather than working directly from Google Drive or another cloud-synchronised location.</p>
+<p>At the end of the setup script, R will ask:</p>
+<pre><code>Would you like to download the Pedometrics 2026 course files now? [y/N]:</code></pre>
+<p>If you enter <code>y</code>, the script will attempt to download the contents of the public Google Drive folder automatically. By default, it proposes a folder named <code>Pedometrics2026_course_files</code> in your home directory, but you can enter another local folder path.</p>
+<p>If the automatic download is blocked by Google Drive or your computer settings, the script will display the Google Drive link and attempt to open it in your browser so that you can download the files manually.</p>
+
+<h2>5. What to expect</h2>
 <p>During installation you may see warnings or messages from R. Many warnings are harmless, particularly while packages and their dependencies are being installed or updated.</p>
-<p>If everything is ready, the script will finish with a message similar to:</p>
+<p>If everything is ready, the package check will finish with a message similar to:</p>
 <pre><code>Everything is ready.
 All R packages required for the Pedometrics 2026 short training
 "Soil Organic Carbon Stock Change Quantification" are installed
 and can be loaded successfully.</code></pre>
 <p>If the script reports that your R version is too old, install the latest R version, restart RStudio, and run the <code>source(...)</code> command again.</p>
 <p>If one or more packages cannot be installed or loaded, please keep a <strong>screenshot of the complete Console output</strong> and contact the course instructors before the practical session.</p>
-<h2>5. Final check before the course</h2>
+
+<h2>6. Final check before the course</h2>
 <p>You are ready for the practical exercises when:</p>
 <ul>
 <li>R 4.3.0 or newer is installed;</li>
 <li>RStudio opens normally;</li>
-<li>the setup script completes without missing packages; and</li>
-<li>the final package-loading check reports success.</li>
+<li>the setup script completes without missing packages;</li>
+<li>the final package-loading check reports success; and</li>
+<li>the course files have been downloaded and saved in a local folder on your computer.</li>
 </ul>
 <p>You do not need to learn basic R syntax before attending the course. The purpose of this setup is simply to ensure that your computer is ready to run the practical exercises.</p>
 </main>
